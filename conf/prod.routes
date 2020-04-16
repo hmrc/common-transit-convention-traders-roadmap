@@ -1,0 +1,4 @@
+->      /                                                  health.Routes
+GET     /roadmaps/common-transit-convention-traders-roadmap           controllers.Default.redirect(to = "/roadmaps/common-transit-convention-traders-roadmap/")
+GET     /roadmaps/common-transit-convention-traders-roadmap/          controllers.Assets.at(path="/public", file="index.html")
+GET     /roadmaps/common-transit-convention-traders-roadmap/*file     controllers.Assets.at(path="/public", file)
