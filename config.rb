@@ -66,6 +66,14 @@ set :markdown,
       link_attributes: { rel: 'noopener noreferrer' },
       context: self
     ),
+    smartypants: true,
     fenced_code_blocks: true,
-    tables: true,
-    no_intra_emphasis: true
+    no_intra_emphasis: true,
+    autolink: true,
+    disable_indented_code_blocks: true,
+    strikethrough: true,
+    space_after_headers: true,
+    superscript: true,
+    underline: true,
+    highlight: true,
+    tables: true
