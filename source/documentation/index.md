@@ -38,8 +38,8 @@ March to April 2020
 
 #### Arrivals
 
-|Name|Description|End user|
-|----|-----------|--------|
+| Name | Description | End user |
+|------|-------------|----------|
 |Submit arrival notification message (IE007) |Send an arrival notification message to the Office of Departure|Third party software developers|
 |Resubmit arrival notification message (IE007)|Resend an arrival notification message to the Office of Departure if the first message was rejected|Third party software developers|
 |Send an unloading remarks|Send a message to let the Third party software message (IE044) Office of Destination know that the goods have been unloaded|Third party software developers|
