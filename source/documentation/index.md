@@ -6,8 +6,7 @@ description: Software developers, designers, product owners or business analysts
 
 # CTC Traders API Roadmap
 
-This roadmap explains the development plans for changes to the Common Transit Convention Traders API. It will be useful for teams who are creating software that interacts with our API. ​It lists the API currently available in our ‘Sandbox’ and ‘Production’ environments and
-the planned schedule for our future releases.
+This roadmap explains the development plans for changes to the Common Transit Convention Traders API. It will be useful for teams who are creating software that interacts with our API. ​It lists the API currently available in our ‘Sandbox’ and ‘Production’ environments and the planned schedule for our future releases.
 
 The following are explained in this roadmap:
 
@@ -40,8 +39,8 @@ March to April 2020
 
 | Name | Description | End user |
 |------|-------------|----------|
-|Submit arrival notification message (IE007) |Send an arrival notification message to the Office of Departure|Third party software developers|
-|Resubmit arrival notification message (IE007)|Resend an arrival notification message to the Office of Departure if the first message was rejected|Third party software developers|
+|Submit Arrival Notification message (IE007) |Send an Arrival Notification message to the Office of Departure|Third party software developers|
+|Resubmit Arrival Notification message (IE007)|Resend an Arrival Notification message to the Office of Departure if the first message was rejected|Third party software developers|
 |Send an unloading remarks|Send a message to let the Third party software message (IE044) Office of Destination know that the goods have been unloaded|Third party software developers|
 |User restricted authentication|Confirms that users have signed into Government Gateway and have an Economic Operators Registration and Identification (EORI) number.|Third party software developers|
 |Deploy alpha status to external test environment|API still changing frequently, only documentation is visible to the public|Third party software developers|
@@ -54,8 +53,8 @@ April to May 2020
 
 |Name|Description|End user|
 |----|-----------|--------|
-|Cancelling an arrival notification message (IE007)|Cancels an arrival notification message that has been sent|Third party software developers|
-|Retrieve all messages relating to an arrival movement|Pull all messages sent within 21 days of the goods being released relating to an arrival movement|Third party software developers|
+|Cancelling an Arrival Notification message (IE007)|Cancels an Arrival Notification message that has been sent|Third party software developers|
+|Retrieve all messages relating to an Arrival Movement|Pull all messages sent within 21 days of the goods being released relating to an Arrival Movement|Third party software developers|
 |Deploy Beta status to external test environment| API and technical documentation still likely to change, but endpoints are available to use|Third party software developers|
 
 ### Long term
