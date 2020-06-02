@@ -1,80 +1,66 @@
 ---
 title: Common Transit Convention Traders API Roadmap
 weight: 1
-description: Software developers, designers, product owners or business analysts. Integrate your software with Common Transit Convention Traders API for Making Tax Digital.
+description: Software developers, designers, product owners or business analysts - see how you can integrate your software with Common Transit Convention Traders API.
 ---
 
 # CTC Traders API Roadmap
 
-This roadmap explains the development plans for changes to the Common Transit Convention Traders API. It will be useful for teams who are creating software that interacts with our API. ​It lists the API currently available in our ‘Sandbox’ and ‘Production’ environments and the planned schedule for our future releases.
+This roadmap explains the development plans for changes to the Common Transit Convention Traders API. We have created it for teams who are creating software that interacts with our new API. We hope you find it useful. In this road map we lists the API you can interact with in our ‘Sandbox’ and ‘Production’ environments and our schedule for our future developments.
 
-The following are explained in this roadmap:
+Please come back to this roadmap as we will be regularly updating it. 
 
-_Our backlog_
+Here's what we are explaining in this roadmap:
 
-Our upcoming priorities for end-to-end functionality of the API.
 
 _In test_
 
-Functionality currently available in sandbox for testing.
+Functionality is available in sandbox for you to test.
+
+
+_Our backlog_
+
+Our upcoming priorities for the API.
+
 
 _Released_
 
-End-to-end functionality of the API available in sandbox for testing and in production for live
+End-to-end functionality is in sandbox for testing and in production for live
 goods movements.
 
-## Who are we?
-
-We are the Common Transit Convention API development team.
 
 For more information, please email ​sdsteam@hmrc.gsi.gov.uk
 
-## Backlog
+## _In test_
 
-### Near term
-
-March to April 2020
+Please note, we will be moving from an external test API (using canned data) to Trader test, using real data on 1st October 2020 
 
 #### Arrivals
 
-| Name | Description | End user |
-|------|-------------|----------|
-|Submit Arrival Notification message (IE007) |Send an Arrival Notification message to the Office of Departure|Third party software developers|
-|Resubmit Arrival Notification message (IE007)|Resend an Arrival Notification message to the Office of Departure if the first message was rejected|Third party software developers|
-|Send an unloading remarks|Send a message to let the Third party software message (IE044) Office of Destination know that the goods have been unloaded|Third party software developers|
-|User restricted authentication|Confirms that users have signed into Government Gateway and have an Economic Operators Registration and Identification (EORI) number.|Third party software developers|
-|Deploy alpha status to external test environment|API still changing frequently, only documentation is visible to the public|Third party software developers|
+| Name | Description |
+|------|-------------|
+|Submit Arrival Notification message (IE007) |Send an Arrival Notification message to the Office of Departure|
+|Resubmit Arrival Notification message (IE007)|Resend an Arrival Notification message to the Office of Departure if the first message was rejected|
+|Send an unloading remarks|Send a message to let the Third party software message (IE044) Office of Destination know that the goods have been unloaded|
+|User restricted authentication|Confirms that users have signed into Government Gateway and have an Economic Operators Registration and Identification (EORI) number|
+|Deploy alpha status to external test environment|API still changing frequently, only documentation is visible to the public|
+|Cancelling an Arrival Notification message (IE007)|Cancels an Arrival Notification message that has been sent|
+|Retrieve all messages relating to an Arrival Movement|Pull all messages sent within 21 days of the goods being released relating to an Arrival Movement|
+|Deploy Beta status to external test environment| API and technical documentation still likely to change, but endpoints are available to use|
 
-### Mid term
-
-April to May 2020
-
-#### Arrivals
-
-|Name|Description|End user|
-|----|-----------|--------|
-|Cancelling an Arrival Notification message (IE007)|Cancels an Arrival Notification message that has been sent|Third party software developers|
-|Retrieve all messages relating to an Arrival Movement|Pull all messages sent within 21 days of the goods being released relating to an Arrival Movement|Third party software developers|
-|Deploy Beta status to external test environment| API and technical documentation still likely to change, but endpoints are available to use|Third party software developers|
-
-### Long term
-
-May to October 2020
+## _Our backlog_
 
 #### Departures
 
-|Name|Description|End user|
-|----|-----------|--------|
-|Departures| |Third party software developers|
-|Release API to production or live environment| |Third party software developers|
+|Name|Description|
+|----|-----------|
+|Departures| We will update this section with a list of all Departure Notifications|
+|Release API to production or live environment| We will update this section with a list of all functionality ready for the live environment|
 
-## In sandbox
 
-Add content in here as required.
+## _Released_
 
-## Released
-
-Add content in here as required.
+At present we have not released our API functionality for live goods movements.  
 
 ## Related API documentation
 <!--- Section owner: MTD Programme --->
@@ -85,9 +71,9 @@ Add content in here as required.
 ## Changelog
 <!--- Section owner: MTD Programme --->
 
-Version 0.1
+Version 0.2
 
-15th April 2020
+2nd June 2020
 
 What changed:
 
