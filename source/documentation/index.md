@@ -6,11 +6,13 @@ description: Software developers, designers, product owners or business analysts
 
 # CTC Traders API Roadmap
 
-This roadmap explains the development plans for changes to the Common Transit Convention Traders API. We have created it for teams who are creating software that interacts with our new API. We hope you find it useful. In this road map we lists the API you can interact with in our ‘Sandbox’ and ‘Production’ environments and our schedule for our future developments.
+This roadmap explains the development plans for changes to the Common Transit Convention Traders API. We have created it for teams who are creating software that interacts with our new API. We hope you find it useful. 
 
-Please come back to this roadmap as we will be regularly updating it. 
+In this road map we list how you can interact with in our ‘Sandbox’ and ‘Production’ environments as well as our schedule for future developments and releases.
 
-Here's what we are explaining in this roadmap:
+We will be regularly updating this road map as and when developments and dates change. 
+
+### Terminology:
 
 
 _In test_
@@ -29,7 +31,7 @@ End-to-end functionality is in sandbox for testing and in production for live
 goods movements.
 
 
-For more information, please email ​sdsteam@hmrc.gsi.gov.uk
+
 
 ## _In test_
 
@@ -41,12 +43,10 @@ Please note, we will be moving from an external test API (using canned data) to 
 |------|-------------|
 |Submit Arrival Notification message (IE007) |Send an Arrival Notification message to the Office of Departure|
 |Resubmit Arrival Notification message (IE007)|Resend an Arrival Notification message to the Office of Departure if the first message was rejected|
-|Send an unloading remarks|Send a message to let the Third party software message (IE044) Office of Destination know that the goods have been unloaded|
+|Send an unloading remarks (IE044) |Send a message to the office of destination know that the goods have been unloaded|
 |User restricted authentication|Confirms that users have signed into Government Gateway and have an Economic Operators Registration and Identification (EORI) number|
-|Deploy alpha status to external test environment|API still changing frequently, only documentation is visible to the public|
-|Cancelling an Arrival Notification message (IE007)|Cancels an Arrival Notification message that has been sent|
+|Cancel an Arrival Notification message (IE007)|Cancels an Arrival Notification message that has been sent|
 |Retrieve all messages relating to an Arrival Movement|Pull all messages sent within 21 days of the goods being released relating to an Arrival Movement|
-|Deploy Beta status to external test environment| API and technical documentation still likely to change, but endpoints are available to use|
 
 ## _Our backlog_
 
@@ -61,6 +61,9 @@ Please note, we will be moving from an external test API (using canned data) to 
 ## _Released_
 
 At present we have not released our API functionality for live goods movements.  
+
+
+For more information, please email ​sdsteam@hmrc.gsi.gov.uk
 
 ## Related API documentation
 <!--- Section owner: MTD Programme --->
