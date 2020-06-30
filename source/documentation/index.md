@@ -13,20 +13,14 @@ We will update this roadmap as and when developments and dates change.
 ### Terminology:
 
 
-_In test_
-
-Functionality is available in sandbox for you to test.
+_Ready for test_: Functionality is available in sandbox for you to test.
 
 
-_Our backlog_
-
-Our upcoming priorities for the API.
+_Our backlog_: Our upcoming priorities for the API.
 
 
 
-
-
-## _In test_
+## _Ready for test_
 
 
 | **Arrivals** | **Description** |
@@ -38,7 +32,7 @@ Our upcoming priorities for the API.
 |**Cancel an Arrival Notification message (IE007)**|Cancel an Arrival Notification message that has been sent|
 |**Retrieve all messages relating to an Arrival Movement**|Pull all messages sent within 21 days of the goods being released relating to an Arrival Movement|
 
-Please note, we will be moving from an external test API using sample data, to Trader test using real data on 1st October 2020.
+We will be moving from an external test API using sample data, to Trader test using real data on 1st October 2020.
 
 
 ## _Our backlog_
@@ -49,11 +43,11 @@ Please note, we will be moving from an external test API using sample data, to T
 |**Put all Departures Notifications in test**| By XX Month XXXX we will make all Departure Notifications ready for testing in a sandbox environment|
 |**Release CTC Traders API to the live environment**| By 31 December 2020 we will release a full functioning CTC Traders API ready for testing in a sandbox environment and for use in a live environment|
 
+Although some endpoints will not be ready for the sandbox environment, you will be able to see them on our [CTC Traders API definitions page](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0)
 
  
 
-
-For more information, please email ​sdsteam@hmrc.gsi.gov.uk
+For more information, email ​sdsteam@hmrc.gsi.gov.uk
 
 ## Related API documentation
 <!--- Section owner: MTD Programme --->
