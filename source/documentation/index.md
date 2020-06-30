@@ -16,7 +16,7 @@ We will update this roadmap as and when developments and dates change.
 _Ready for test_: Functionality is available in sandbox for you to test.
 
 
-_Our backlog_: Our upcoming priorities for the API.
+_Our backlog_: Our upcoming priorities and planned delivery dates for the API.
 
 
 
