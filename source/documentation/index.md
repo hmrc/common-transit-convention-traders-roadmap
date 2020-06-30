@@ -39,7 +39,6 @@ _Our backlog_: Our upcoming priorities and planned delivery dates for the API.
 
 
 
-
 Within the sandbox environment, we will be moving from the test support service to the NCTS Trader test service in October 2020.
 
 
