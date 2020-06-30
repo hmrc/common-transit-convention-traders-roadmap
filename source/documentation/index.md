@@ -27,12 +27,12 @@ _Our backlog_: Our upcoming priorities and planned delivery dates for the API.
 |------|-------------|
 |**Submit Arrival Notification message (IE007)** |Send an Arrival Notification message to the Office of Departure|
 |**Resubmit Arrival Notification message (IE007)**|Resend an Arrival Notification message to the Office of Departure if the first message was rejected|
-|**Send an unloading remarks (IE044)** |Send a message to the office of destination know that the goods have been unloaded|
+|**Submit unloading remarks (IE044)** |Send a message to the office of destination know that the goods have been unloaded|
 |**Check restricted authentication**|Confirm that users have signed into Government Gateway and have an Economic Operators Registration and Identification (EORI) number|
 |**Cancel an Arrival Notification message (IE007)**|Cancel an Arrival Notification message that has been sent|
 |**Retrieve all messages relating to an Arrival Movement**|Pull all messages sent within 21 days of the goods being released relating to an Arrival Movement|
 
-We will be moving from an external test API using sample data, to Trader test using real data on 1st October 2020.
+Within the sandbox environment, we will be moving from the test support service to the NCTS Trader test service in October 2020.
 
 
 ## _Our backlog_
