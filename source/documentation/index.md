@@ -8,7 +8,7 @@ description: Software developers, designers, product owners or business analysts
 
 This roadmap explains the development plans for the Common Transit Convention Traders API. It's for teams who are creating software that interacts with our new API. We hope you find it useful. 
 
-We will update this roadmap as and when developments and dates change. 
+We are taking an Agile approach to delivering and managing our goals. We will update this roadmap as and when developments and dates change. 
 
 ### Terminology:
 
@@ -64,7 +64,7 @@ Although some endpoints will not be ready for the sandbox environment, you will 
 
  
 
-For more information, email ​sdsteam@hmrc.gsi.gov.uk
+For more information or if you have any questions, email ​sdsteam@hmrc.gsi.gov.uk
 
 ## Related API documentation
 <!--- Section owner: MTD Programme --->
