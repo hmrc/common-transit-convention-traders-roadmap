@@ -26,6 +26,7 @@ _Our backlog_: Our upcoming priorities and planned delivery dates for the API.
 |------|-------------|
 |**Changed Arrivals from Alpha to Beta** |Changed the API version to Beta to enable endpoints in developments, QA and staging areas only|
 
+
 | **Arrivals** | **Description** |
 |------|-------------|
 |**Submit Arrival Notification message (IE007)** |Send an Arrival Notification message to the Office of Departure|
@@ -48,6 +49,7 @@ Within the sandbox environment, we will be moving from the test support service 
 |------|-------------|
 |**Change Departures from Alpha to Beta** |By XX Month XXXX, change the API version to Beta to enable endpoints in developments, QA and staging areas only|
 |**Release CTC Traders API to the live environment**| By 31 December 2020 we will release a full functioning CTC Traders API ready for testing in a sandbox environment and for use in a live environment|
+
 
 |**Departures**|**Description**|
 |----|-----------|
