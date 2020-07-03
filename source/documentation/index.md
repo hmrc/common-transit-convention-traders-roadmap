@@ -6,26 +6,24 @@ description: Software developers, designers, product owners or business analysts
 
 # CTC Traders API Roadmap
 
-This roadmap explains the development plans for the Common Transit Convention Traders API. It's for teams who are creating software that interacts with our new API. We hope you find it useful. 
+This roadmap explains the development plans for the Common Transit Convention Traders API. We hope you find it useful. In includes the features you can test and explore now, what's coming soon and development key dates.    
 
-We are taking an Agile approach to delivering and managing our goals. We will update this roadmap as and when developments and dates change. 
-
-### Terminology:
-
-
-_Ready_: Functionality is available in sandbox for you to test.
-
-
-_Our backlog_: Our upcoming priorities and planned delivery dates for the API.
+We are now in [Beta](https://www.gov.uk/help/beta). We will update this roadmap as and when developments and dates change. 
 
 
 
-## _Ready_
+## Key dates
 
-| **Milestone** | **Description** |
+We are an Agile team so forcasted dates my change. 
+
+| **Milestone** | **Date** |
 |------|-------------|
-|**Changed Arrivals from Alpha to Beta** |Changed the API version to Beta to enable endpoints in developments, QA and staging areas only|
+|**Access to trader testing**| 1 October 2020|
+|**Released to the live environment**| 31 December 2020 |
 
+We are now working on a Test Support API that will allow you to self-serve responses before you can carry out trader testing. We hope to make this available by August 2020. 
+
+## _Ready for testing_
 
 | **Arrivals** | **Description** |
 |------|-------------|
@@ -40,16 +38,7 @@ _Our backlog_: Our upcoming priorities and planned delivery dates for the API.
 
 
 
-Within the sandbox environment, we will be moving from the test support service to the NCTS Trader test service in October 2020.
-
-
-## _Our backlog_
-
-| **Milestone** | **Description** |
-|------|-------------|
-|**Change Departures from Alpha to Beta** |By XX Month XXXX, change the API version to Beta to enable endpoints in developments, QA and staging areas only|
-|**Release CTC Traders API to the live environment**| By 31 December 2020 we will release a full functioning CTC Traders API ready for testing in a sandbox environment and for use in a live environment|
-
+## _Coming soon_
 
 |**Departures**|**Description**|
 |----|-----------|
@@ -62,9 +51,7 @@ Within the sandbox environment, we will be moving from the test support service 
 
 Although some endpoints will not be ready for the sandbox environment, you will be able to see them on our [CTC Traders API definitions page](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0)
 
- 
 
-For more information or if you have any questions, email ​sdsteam@hmrc.gsi.gov.uk
 
 ## Related API documentation
 <!--- Section owner: MTD Programme --->
