@@ -21,7 +21,7 @@ We are an Agile team so forcasted dates my change.
 |**Access to trader testing**| 1 October 2020|
 |**Released to the live environment**| 31 December 2020 |
 
-We are now working on a Test Support API that will allow developers to self-serve responses before they have access to trader testing. We hope to make this available in August 2020. 
+We are now working on a Test Support API that will allow you to self-serve responses before you can carry out trader testing. We hope to make this available by August 2020. 
 
 ## _Ready for testing_
 
