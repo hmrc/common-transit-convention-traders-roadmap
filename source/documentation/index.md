@@ -14,14 +14,16 @@ We are now in [Beta](https://www.gov.uk/help/beta). We will update this roadmap 
 
 ## Key dates
 
-We are an Agile team so forcasted dates my change. 
+We are an Agile team so forecasted dates my change. 
 
 | **Milestone** | **Date** |
 |------|-------------|
-|**Access to trader testing**| 1 October 2020|
+|**Access to a fully functioning testing environment**| 1 October 2020|
 |**Released to the live environment**| 31 December 2020 |
 
 We are now working on a Test Support API that will allow you to self-serve responses before you can carry out trader testing. We hope to make this available by August 2020. 
+
+At the start of October the CTC Traders API will use the Trader Test service instead of the Test Support API for injecting messages from NCTS
 
 ## _Ready for testing_
 
@@ -48,7 +50,7 @@ We are now working on a Test Support API that will allow you to self-serve respo
 |**Retrieve a single Departure message** |Use a message ID to pull a single message|
 |**Retrieve all active Departures**|Pull all messages send within 21 days for active Departures|  
 
-Although some endpoints will not be ready for the sandbox environment, you will be able to see them on our [CTC Traders API definitions page](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0)
+Although some endpoints will not be ready for the sandbox environment, you will be able to see them on our CTC Traders API definitions page
 
 
 
