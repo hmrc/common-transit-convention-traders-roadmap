@@ -29,7 +29,6 @@ We are now working on a Test Support API that will allow you to self-serve respo
 |------|-------------|
 |**Submit Arrival Notification message (IE007)** |Send an Arrival Notification message to the Office of Departure|
 |**Resubmit Arrival Notification message (IE007)**|Resend an Arrival Notification message to the Office of Departure if the first message was rejected|
-|**Cancel an Arrival Notification message (IE007)**|Cancel an Arrival Notification message that has been sent|
 |**Submit unloading remarks (IE044)** |Send a message to the office of destination know that the goods have been unloaded|
 |**Check restricted authentication**|Confirm that users have signed into Government Gateway and have an Economic Operators Registration and Identification (EORI) number|
 |**Retrieve all messages relating to an Arrival Movement**|Pull all messages sent within 21 days of the goods being released relating to an Arrival Movement ID|
