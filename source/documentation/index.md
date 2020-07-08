@@ -23,7 +23,7 @@ We are an Agile team so forecasted dates my change.
 
 We are now working on a Test Support API that will allow you to self-serve responses before you can carry out trader testing. We hope to make this available by August 2020. 
 
-At the start of October the CTC Traders API will use the Trader Test service instead of the Test Support API for injecting messages from NCTS
+At the start of October, the CTC Traders API will use the Trader Test service instead of the Test Support API for injecting messages from NCTS.
 
 ## _Ready for testing_
 
