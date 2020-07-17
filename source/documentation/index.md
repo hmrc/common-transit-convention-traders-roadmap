@@ -1,10 +1,10 @@
 ---
-title: Common Transit Convention Traders API Roadmap
+title: Common Transit Convention Traders API roadmap
 weight: 1
 description: Software developers, designers, product owners or business analysts - see how you can integrate your software with Common Transit Convention Traders API.
 ---
 
-# CTC Traders API Roadmap
+# CTC Traders API roadmap
 
 This roadmap explains the development plans for the Common Transit Convention Traders API. We hope you find it useful. In includes the features you can test and explore now, what's coming soon and development key dates.    
 
@@ -16,10 +16,13 @@ We are now in [Beta](https://www.gov.uk/help/beta). We will update this roadmap 
 
 We are an Agile team so forecasted dates my change. 
 
-| **Milestone** | **Date** |
+| **Delivery** | **Date** |
 |------|-------------|
-|**Access to a fully functioning testing environment**| 1 October 2020|
-|**Released to the live environment**| 31 December 2020 |
+|**Test Support API available**| August 2020|
+|**Complete departures endpoints**| September 2020 |
+|**Switch from using Test Support API to Trader Test**| October 2020 |
+|**Release to live environment**| Late spring 2021 |
+|**Complete departures endpoints**| Late spring 2021 |
 
 We are now working on a Test Support API that will allow you to self-serve responses before you can carry out trader testing. We hope to make this available by August 2020. 
 
