@@ -46,9 +46,9 @@ At the start of October, the CTC Traders API will use the Trader Test service in
 |**Resubmit an Arrival Notification message (IE007)**|Resend an Arrival Notification message to the Office of Departure if the first message was rejected|
 |**Submit unloading remarks (IE044)** |Send a message to let the office of destination know that the goods have been unloaded|
 |**Check restricted authentication**|Confirm that users have signed into Government Gateway, they have correctly enrolled for an Economic Operators Registration and Identification (EORI) number and that their EORI number is valid|
-|**Retrieve all messages relating to a Movement Arrival**|Pull all messages sent within 21 days of the goods being released relating to an Arrival Movement ID|
-|**Retrieve a single message** |Use a message ID to pull a single message|
-|**Retrieve all Arrival Notifications for a trader**|Pull all messages send within 21 days that relates to a particular trader|  
+|**Retrieve all messages relating to a Movement Arrival**|PULL all messages sent within 21 days of the goods being released relating to an Arrival Movement ID|
+|**Retrieve a single message** |Use a message ID to PULL a single message|
+|**Retrieve all Arrival Notifications for a trader**|PULL all messages send within 21 days that relates to a particular trader|  
 
 
 
@@ -60,9 +60,9 @@ We will update these endpoints and move them from ‘in development’ to ‘rea
 |----|-----------|
 |**Submit  a Departures Declaration message (IE015)** |Submit a Departure Declaration message so a trader can start the departure process|
 |**Submit a Request for Release message (IE054)**|Submit a Release Request so the trader can move goods|
-|**Retrieve all messages relating to a Movement Departure**|Pull all messages sent within 21 days relating to a Movement Departure ID |
-|**Retrieve a single Departure message** |Use a message ID to pull a single message|
-|**Retrieve all active Departures**|Pull all messages send within 21 days for active Departures|  
+|**Retrieve all messages relating to a Movement Departure**|PULL all messages sent within 21 days relating to a Movement Departure ID |
+|**Retrieve a single Departure message** |Use a message ID to PULL a single message|
+|**Retrieve all active Departures**|PULL all messages send within 21 days for active Departures|  
 
 Although some endpoints will not be ready for the sandbox environment, you will be able to see them on [CTC Traders API specifications](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0)
 
