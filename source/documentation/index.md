@@ -4,17 +4,19 @@ weight: 1
 description: Software developers, designers, product owners or business analysts - see how you can integrate your software with Common Transit Convention Traders API.
 ---
 
-# CTC Traders API roadmap
+# Common Transit Convention Traders API roadmap
 
-This roadmap explains the development plans for the Common Transit Convention Traders API. We hope you find it useful. In includes the features you can test and explore now, what's coming soon and development key dates.    
+## Overview
 
-We are now in [Beta](https://www.gov.uk/help/beta). We will update this roadmap as and when developments and dates change. 
+We are creating  the Common Transit Convention (CTC) Traders API to allow traders to send and receive messages arrival and Departure Notifications to customs and border offices in the UK and the EU.  
+
+
+We are now in [Beta](https://www.gov.uk/help/beta). Some endpoints are ready for you to test in HMRC’s sandbox environment. More will follow.
 
 
 
 ## Key dates
 
-We are an Agile team so forecasted dates my change. 
 
 | **Delivery** | **Date** |
 |------|-------------|
@@ -24,36 +26,45 @@ We are an Agile team so forecasted dates my change.
 |**Release to live environment**| Late spring 2021 |
 |**Complete departures endpoints**| Late spring 2021 |
 
-We are now working on a Test Support API that will allow you to self-serve responses before you can carry out trader testing. We hope to make this available by August 2020. 
+## Test support environments
 
-At the start of October, the CTC Traders API will use the Trader Test service instead of the Test Support API for injecting messages from NCTS.
+### Test Support API 
 
-## _Ready for testing_
+We are now working on a Test Support API that will allow you to self-serve responses. This will give you the ability to place CTC test messages as if they were coming from NCTS. This is for use in the HMRC's sandbox environment.  
+To use this API, check our [Test API specifications]( https://developer.qa.tax.service.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders-test-support/1.0).
+
+### Trader Test
+
+At the start of October, the CTC Traders API will use the Trader Test service instead of the Test Support API. This will allow you to request authentic messages from the NCTS. 
+
+
+## Ready for you to testing
 
 | **Arrivals** | **Description** |
 |------|-------------|
-|**Submit Arrival Notification message (IE007)** |Send an Arrival Notification message to the Office of Departure|
-|**Resubmit Arrival Notification message (IE007)**|Resend an Arrival Notification message to the Office of Departure if the first message was rejected|
+|**Submit an Arrival Notification message (IE007)** |Send an Arrival Notification message to the Office of Departure|
+|**Resubmit an Arrival Notification message (IE007)**|Resend an Arrival Notification message to the Office of Departure if the first message was rejected|
 |**Submit unloading remarks (IE044)** |Send a message to the office of destination know that the goods have been unloaded|
 |**Check restricted authentication**|Confirm that users have signed into Government Gateway and have an Economic Operators Registration and Identification (EORI) number|
-|**Retrieve all messages relating to an Arrival Movement**|Pull all messages sent within 21 days of the goods being released relating to an Arrival Movement ID|
+|**Retrieve all messages relating to a Movement Arrival**|Pull all messages sent within 21 days of the goods being released relating to an Arrival Movement ID|
 |**Retrieve a single message** |Use a message ID to pull a single message|
-|**Retrieve all Arrival Notitications for a trader**|Pull all messages send within 21 days that relates to a particular trader|  
+|**Retrieve all Arrival Notifications for a trader**|Pull all messages send within 21 days that relates to a particular trader|  
 
 
 
-## _Coming soon_
+## In development
+
+We will update these endpoints and move them from ‘in development’ to ‘ready for you to test’ on an ongoing basis.
 
 |**Departures**|**Description**|
 |----|-----------|
-|**Submit Departures Declaration message (IE015)** |Submit a Departure Declaration message so a trader can start the departure process|
+|**Submit  a Departures Declaration message (IE015)** |Submit a Departure Declaration message so a trader can start the departure process|
 |**Submit a Request for Release message (IE054)**|Submit a Release Request so the trader can move goods|
-|**Check restricted authentication**|Confirm that users have signed into Government Gateway and have an Economic Operators Registration and Identification (EORI) number|
-|**Retrieve all messages relating to a Departure Movement**|Pull all messages sent within 21 days relating to a Departure Movement ID |
+|**Retrieve all messages relating to a Movement Departure**|Pull all messages sent within 21 days relating to a Movement Departure ID |
 |**Retrieve a single Departure message** |Use a message ID to pull a single message|
 |**Retrieve all active Departures**|Pull all messages send within 21 days for active Departures|  
 
-Although some endpoints will not be ready for the sandbox environment, you will be able to see them on our CTC Traders API definitions page
+Although some endpoints will not be ready for the sandbox environment, you will be able to see them on [CTC Traders API specifications](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0)
 
 
 
@@ -61,15 +72,15 @@ Although some endpoints will not be ready for the sandbox environment, you will 
 <!--- Section owner: MTD Programme --->
 
   * [Service Guide](https://developer.tax.service.gov.uk/guides/common-transit-convention-traders-service-guide/)
-  * [CTC Traders API definitions](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0)
+  * [CTC Traders API specifications](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0)
 
 ## Changelog
 <!--- Section owner: MTD Programme --->
 
-Version 0.2
+Version 1.0
 
-2nd June 2020
+15 July 2020
 
 What changed:
 
-* Initial draft
+* First release
