@@ -45,7 +45,7 @@ At the start of October, the CTC Traders API will use the Trader Test service in
 |**Submit an Arrival Notification message (IE007)** |Send an Arrival Notification message to the Office of Departure|
 |**Resubmit an Arrival Notification message (IE007)**|Resend an Arrival Notification message to the Office of Departure if the first message was rejected|
 |**Submit unloading remarks (IE044)** |Send a message to let the office of destination know that the goods have been unloaded|
-|**Check restricted authentication**|Confirm that users have signed into Government Gateway, they have correctly enrolled for an Economic Operators Registration and Identification (EORI) number and that their EORI number is valid|
+|**Check restricted authentication**|Confirm that users have: signed into Government Gateway; enrolled for an Economic Operators Registration and Identification (EORI); obtained a valid  EORI number|
 |**Retrieve all messages relating to a Movement Arrival**|PULL all messages sent within 21 days of the goods being released relating to an Arrival Movement ID|
 |**Retrieve a single message** |Use a message ID to PULL a single message|
 |**Retrieve all Arrival Notifications for a trader**|PULL all messages send within 21 days that relates to a particular trader|  
