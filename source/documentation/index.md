@@ -8,7 +8,7 @@ description: Software developers, designers, product owners or business analysts
 
 ## Overview
 
-We are creating  the Common Transit Convention (CTC) Traders API to allow traders to send and receive messages arrival and Departure Notifications to customs and border offices in the UK and the EU.  
+We are creating  the Common Transit Convention (CTC) Traders API to allow traders to send and receive Arrival and Departure Notifications to customs and border offices in the UK and the EU.  
 
 
 We are now in [Beta](https://www.gov.uk/help/beta). Some endpoints are ready for you to test in HMRC’s sandbox environment. More will follow.
@@ -29,26 +29,26 @@ We are now in [Beta](https://www.gov.uk/help/beta). Some endpoints are ready for
 
 ### Test Support API 
 
-We are now working on a Test Support API that will allow you to self-serve responses. This will give you the ability to place CTC test messages as if they were coming from NCTS. This is for use in the HMRC's sandbox environment.  
+We are now working on a Test Support API that will allow you to self-serve responses. This will give you the ability to place CTC test messages as if they were coming from NCTS. This is for use in the HMRC's sandbox environment only.  
 
-To use this API, check our [Test Support API specifications]( https://developer.qa.tax.service.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders-test-support/1.0).
+To use this API, check our [Test Support API specifications](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0).
 
 ### Trader Test
 
-At the start of October, the CTC Traders API will use the Trader Test service instead of the Test Support API. This will allow you to request authentic messages from the NCTS. 
+At the start of October 2020, the CTC Traders API will use the Trader Test service instead of the Test Support API. This will allow you to request authentic messages from the NCTS. 
 
 
 ## Ready for you to test in HMRC's sandbox environment
 
 | **Arrivals** | **Description** |
 |------|-------------|
-|**Submit an Arrival Notification message (IE007)** |Send an Arrival Notification message to the Office of Departure|
-|**Resubmit an Arrival Notification message (IE007)**|Resend an Arrival Notification message to the Office of Departure if the first message was rejected|
+|**Submit an Arrival Notification message (IE007)** |Send an Arrival Notification message to the office of departure|
+|**Resubmit an Arrival Notification message (IE007)**|Resend an Arrival Notification message to the office of departure if the first message was rejected|
 |**Submit unloading remarks (IE044)** |Send a message to let the office of destination know that the goods have been unloaded|
-|**Check restricted authentication**|Confirm that users have: signed into Government Gateway; enrolled for an Economic Operators Registration and Identification (EORI); obtained a valid  EORI number|
+|**Check user restricted authentication**|Confirm that users have: signed into Government Gateway; enrolled for Economic Operators Registration and Identification (EORI); obtained a valid  EORI number|
 |**Retrieve all messages relating to a Movement Arrival**|PULL all messages sent within 21 days of the goods being released relating to an Arrival Movement ID|
 |**Retrieve a single message** |Use a message ID to PULL a single message|
-|**Retrieve all Arrival Notifications for a trader**|PULL all messages send within 21 days that relates to a particular trader|  
+|**Retrieve all Arrival Notifications for a trader**|PULL all messages sent within 21 days that relate to a particular trader|  
 
 
 
@@ -58,7 +58,7 @@ We will update these endpoints and move them from ‘in development’ to ‘rea
 
 |**Departures**|**Description**|
 |----|-----------|
-|**Submit  a Departures Declaration message (IE015)** |Submit a Departure Declaration message so a trader can start the departure process|
+|**Submit  a Departure Declaration message (IE015)** |Submit a Departure Declaration message so a trader can start the departure process|
 |**Submit a Request for Release message (IE054)**|Submit a Release Request so the trader can move goods|
 |**Retrieve all messages relating to a Movement Departure**|PULL all messages sent within 21 days relating to a Movement Departure ID |
 |**Retrieve a single Departure message** |Use a message ID to PULL a single message|
@@ -71,7 +71,7 @@ Although some endpoints will not be ready for the sandbox environment, you will 
 ## Related API documentation
 <!--- Section owner: MTD Programme --->
 
-  * [Service Guide](https://developer.tax.service.gov.uk/guides/common-transit-convention-traders-service-guide/)
+  * [Service Guide](https://developer.service.hmrc.gov.uk/guides/common-transit-convention-traders-service-guide/)
   * [CTC Traders API specifications](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0)
 
 ## Changelog
