@@ -60,9 +60,9 @@ We will update these endpoints and move them from ‘in development’ to ‘rea
 |**Departures**|**Description**|
 |----|-----------|
 |**Submit  a Departure Declaration message (IE015)** |Submit a Departure Declaration message so a trader can start the departure process|
-|**Submit a Request for Release message (IE054)**|Submit a Release Request so the trader can move goods|
 |**Retrieve all messages relating to a Movement Departure**|PULL all messages sent within 21 days relating to a Movement Departure ID |
 |**Retrieve a single Movement Departure details**| Retrieve a Movement Departure's status and details|
+|**Submit a Request for Release message (IE054)**|Submit a Release Request so the trader can move goods|
 |**Retrieve a single Departure message** |Use a message ID to PULL a single message|
 |**Retrieve all active Departures**|PULL all messages send within 21 days for active Departures|  
 
