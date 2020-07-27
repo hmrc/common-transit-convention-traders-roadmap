@@ -47,6 +47,7 @@ At the start of October 2020, the CTC Traders API will use the Trader Test servi
 |**Submit unloading remarks (IE044)** |Send a message to let the office of destination know that the goods have been unloaded|
 |**Check user restricted authentication**|Confirm that users have: signed into Government Gateway; enrolled for Economic Operators Registration and Identification (EORI); obtained a valid  EORI number|
 |**Retrieve all messages relating to a Movement Arrival**|PULL all messages sent within 21 days of the goods being released relating to an Arrival Movement ID|
+|**Retrieve a single Movement Arrival details**| Retrieve a Movement Arrival's status and details|
 |**Retrieve a single message** |Use a message ID to PULL a single message|
 |**Retrieve all Arrival Notifications for a trader**|PULL all messages sent within 21 days that relate to a particular trader|  
 
@@ -61,6 +62,7 @@ We will update these endpoints and move them from ‘in development’ to ‘rea
 |**Submit  a Departure Declaration message (IE015)** |Submit a Departure Declaration message so a trader can start the departure process|
 |**Submit a Request for Release message (IE054)**|Submit a Release Request so the trader can move goods|
 |**Retrieve all messages relating to a Movement Departure**|PULL all messages sent within 21 days relating to a Movement Departure ID |
+|**Retrieve a single Movement Departure details**| Retrieve a Movement Departure's status and details|
 |**Retrieve a single Departure message** |Use a message ID to PULL a single message|
 |**Retrieve all active Departures**|PULL all messages send within 21 days for active Departures|  
 
