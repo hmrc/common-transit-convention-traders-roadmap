@@ -38,7 +38,7 @@ To use this API, check our [Test Support API specifications](https://developer.s
 At the start of October 2020, the CTC Traders API will use the Trader Test service instead of the Test Support API. This will allow you to request authentic messages from the NCTS. 
 
 
-## Ready for you to test in HMRC's sandbox environment
+## Recently released
 
 | **Arrivals** | **Description** |
 |------|-------------|
@@ -53,7 +53,7 @@ At the start of October 2020, the CTC Traders API will use the Trader Test servi
 
 
 
-## In development
+## Coming soon
 
 We will update these endpoints and move them from ‘in development’ to ‘ready for you to test’ on an ongoing basis.
 
