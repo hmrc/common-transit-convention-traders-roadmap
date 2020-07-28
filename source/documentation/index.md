@@ -18,27 +18,16 @@ We are now in [Beta](https://www.gov.uk/help/beta). Some endpoints are ready for
 ## Key dates
 
 
-| **Delivery** | **Date** |
-|------|-------------|
-|**Test Support API available**| August 2020|
-|**Complete departures endpoints**| September 2020 |
-|**Switch from using Test Support API to Trader Test**| October 2020 |
-|**Release to live environment**| Late spring 2021 |
-
-## Test environments
-
-### Test Support API 
-
-We are now working on a Test Support API that will allow you to self-serve responses. This will give you the ability to place CTC test messages as if they were coming from NCTS. This is for use in the HMRC's sandbox environment only.  
-
-To use this API, check our [Test Support API specifications](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0).
-
-### Trader Test
-
-At the start of October 2020, the CTC Traders API will use the Trader Test service instead of the Test Support API. This will allow you to request authentic messages from the NCTS. 
+| **Delivery** | **Description** |**Date** |
+|------|-------------|--------|
+|**Test Support API available** |You can place CTC test messages as if they were from the NCTS. It is for use with HMRC's sandbox environment only. Check out [Test Support API specifications](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0) | August 2020|
+|**Complete departures endpoints**| We will have all the departures endpoints ready|September 2020 |
+|**Switch from using Test Support API to Trader Test**| This will allow you to request authentic messages from the NCTS | October 2020 |   
+|**Release to live environment**| Traders can now use the API to send and receive messages to and from the offices of departure and arrivals| Late spring 2021 |
 
 
-## Ready for you to test in HMRC's sandbox environment
+
+## Recently released
 
 | **Arrivals** | **Description** |
 |------|-------------|
@@ -53,9 +42,9 @@ At the start of October 2020, the CTC Traders API will use the Trader Test servi
 
 
 
-## In development
+## Coming soon
 
-We will update these endpoints and move them from ‘in development’ to ‘ready for you to test’ on an ongoing basis.
+We will update these endpoints and release them as soon as they are ready.
 
 |**Departures**|**Description**|
 |----|-----------|
@@ -67,6 +56,7 @@ We will update these endpoints and move them from ‘in development’ to ‘rea
 |**Retrieve all active Departures**|PULL all messages send within 21 days for active Departures|  
 
 Although some endpoints will not be ready for the sandbox environment, you will be able to see them on [CTC Traders API specifications](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0)
+
 
 
 
