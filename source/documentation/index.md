@@ -55,7 +55,7 @@ At the start of October 2020, the CTC Traders API will use the Trader Test servi
 
 ## Coming soon
 
-We will update these endpoints and move them from ‘in development’ to ‘ready for you to test’ on an ongoing basis.
+We will update these endpoints and release them as soon as they are ready.
 
 |**Departures**|**Description**|
 |----|-----------|
