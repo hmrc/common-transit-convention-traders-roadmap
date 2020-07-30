@@ -4,9 +4,9 @@ weight: 2
 ---
 
 
-## Recently released 
+## Released 
 
-### Endpoints ready for HRMC's sandbox
+### Endpoints ready for test in HRMC's sandbox
 
 | **Arrivals** | **Description** |
 |------|-------------|
