@@ -25,7 +25,9 @@ We are now in [Beta](https://www.gov.uk/help/beta). Some endpoints are ready for
 
 
 
-## Recently released for HRMC's sandbox
+## Recently released 
+
+### Endpoints ready for HRMC's sandbox
 
 | **Arrivals** | **Description** |
 |------|-------------|
@@ -68,7 +70,9 @@ Although some endpoints will not be ready for the sandbox environment, you will 
 
 ## What we're working on next
 
-| **Project** |**Description** |
+### Endpoints
+
+| **Departures** |**Description** |
 |------|-------------|
 |**Retrieve all active Departures**|PULL all messages send within 21 days for active Departures|  
 
