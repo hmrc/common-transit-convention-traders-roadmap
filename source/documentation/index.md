@@ -20,7 +20,6 @@ We are now in [Beta](https://www.gov.uk/help/beta). Some endpoints are ready for
 
 | **Delivery** | **Description** |**Date** |
 |------|-------------|--------|
-
 |**Switch from using Test Support API to Trader Test**| This will allow you to request authentic messages from the NCTS | October 2020 |   
 |**Release to production environment**| Traders can now use the API to send and receive messages to and from the offices of departure and arrivals|Late spring 2021|
 
@@ -41,9 +40,17 @@ We are now in [Beta](https://www.gov.uk/help/beta). Some endpoints are ready for
 
 
 
-## Coming soon
+## What we're working on now
 
 We will update these endpoints and release them as soon as they are ready.
+
+### Functionality
+
+| **Project** |**Description** |
+|------|-------------|
+|**Test Support API**| You can place CTC test messages as if they were from the NCTS. It is for use with HMRC’s sandbox environment only. Check out [Test Support API specifications](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0)
+
+### Endpoints
 
 |**Departures**|**Description**|
 |----|-----------|
@@ -53,13 +60,16 @@ We will update these endpoints and release them as soon as they are ready.
 |**Submit a Request for Release message (IE054)**|Submit a Release Request so the trader can move goods|
 |**Retrieve a single Departure message** |Use a message ID to PULL a single message|
 |**Complete departures endpoints**| We will have all the departures endpoints ready|September 2020 |
-|**Test Support API available** |You can place CTC test messages as if they were from the NCTS. It is for use with HMRC's sandbox environment only. Check out [Test Support API specifications](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0) | August 2020|
+
+
 
 Although some endpoints will not be ready for the sandbox environment, you will be able to see them on [CTC Traders API specifications](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0)
 
 
-**Backlog
+## What we're working on next
 
+| **Project** |**Description** |
+|------|-------------|
 |**Retrieve all active Departures**|PULL all messages send within 21 days for active Departures|  
 
 ## Related API documentation
