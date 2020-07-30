@@ -5,7 +5,7 @@ weight: 3
 
 ## What we're working on now
 
-We will update these and release them as soon as they are ready.
+We will update these and release them as soon as they are ready. We expect this to be in the next few weeks. 
 
 ### Functionality
 
@@ -13,10 +13,10 @@ We will update these and release them as soon as they are ready.
 |------|-------------|
 |**Test Support API**| You will be able to place CTC test messages as if they were from the NCTS. It is for use with HMRC’s sandbox environment only. Check out [Test Support API specifications](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0)
 
-### Endpoints
+### Features
 
-|**Departures**|**Description**|
-|----|-----------|
+|**Title**|**Description**|
+|----|-----------|-----|
 |**Submit  a Departure Declaration message (IE015)** |Submit a Departure Declaration message so a trader can start the departure process|
 |**Retrieve all messages relating to a Movement Departure**|PULL all messages sent within 21 days relating to a Movement Departure ID |
 |**Retrieve a single Movement Departure details**| Retrieve a Movement Departure's status and details|
