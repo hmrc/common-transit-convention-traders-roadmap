@@ -30,9 +30,12 @@ We are now in [Beta](https://www.gov.uk/help/beta). Some endpoints are ready for
 <html>
 <body>
 
-<h1>The u element</h1>
 
-<h3><a href="https://github.com/hmrc/common-transit-convention-traders-roadmap/blob/CTDA-203/source/documentation/Recently-released.md"><b><u>Recently released</b></u></b>
+<p>
+<strong>
+<h3><a href="https://github.com/hmrc/common-transit-convention-traders-roadmap/blob/CTDA-203/source/documentation/Recently-released.md"><b><u>Recently released</a></b></u></b></h3>
+</strong>
+</p>
 
 </body>
 </html>
