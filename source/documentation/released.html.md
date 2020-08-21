@@ -3,12 +3,11 @@ title: Released | Common Transit Convention API Roadmap
 weight: 2
 ---
 
-
 # Released
 
 We will continuously update our releases as they become available.
 
-### Project developments
+## Project developments
 
 | **Project** |**Description** |
 |------|-------------|

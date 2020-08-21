@@ -1,22 +1,22 @@
 ---
 title: What we're developing now | Common Transit Convention API Roadmap
-weight: 3
+weight: 2
 ---
 
-## What we're working on now
+# What we're developing now   
 
 We will update these and release them as soon as they are ready. We expect this to be in the next few weeks.
 
-### Project developments
+## Project developments    
 
 | **Project** |**Description** |
 |------|-------------|
 |**Test Support API**| You will be able to place CTC test messages as if they were from the NCTS. It is for use with HMRC’s sandbox environment only. Check out [Test Support API specifications](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0)|Test Support API|
 |**Complete departures endpoints**|You will be able to test all the departures endpoints in HMRC's sandbox environment|
 
-### CTC Traders API
+## CTC Traders API    
 
-
+<html>
 <table>
   <tr>
     <th>Predicted completion</th>
@@ -44,9 +44,11 @@ We will update these and release them as soon as they are ready. We expect this 
     <td>Retrieve a single departure message</td>
     <td>Use a message ID to PULL a single message</td>
   </tr>
-</table>  
+</table>
+</html>
 
-<h3>Test Support API</h3>
+## Test Support API
+
 <table>
   <tr>
     <th>Predicted completion</th>
@@ -61,6 +63,7 @@ We will update these and release them as soon as they are ready. We expect this 
   </tr>
 </table>
 </html>
+
 
 
 Although some endpoints will not be ready for the sandbox environment, you will be able to see them on [CTC Traders API specifications](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0)

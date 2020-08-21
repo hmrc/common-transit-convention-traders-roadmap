@@ -3,10 +3,8 @@ title: Common Transit Convention Traders API roadmap
 weight: 1
 description: Software developers, designers, product owners or business analysts - see how you can integrate your software with Common Transit Convention Traders API.
 ---
+# Common Transit Convention Traders API roadmap</H1>
 
-# Common Transit Convention Traders API roadmap
-
-## Overview
 
 We are creating the Common Transit Convention (CTC) Traders API to allow traders to send and receive Arrival and Departure Notifications to customs and border offices in the UK and the EU.  
 
@@ -25,32 +23,32 @@ We are now in [Beta](https://www.gov.uk/help/beta). Some endpoints are ready for
 |**Release to production environment**| Traders can now use the API to send and receive messages to and from the offices of departure and arrivals|March 2021|
 
 
-### [What we have released](/documentation/released.md.html)
+## [What we have released](./released.html)
 
 See what we have released, either to the HMRC's sandbox environment or to live production.
 
 
-### [What we're developing now](/documentation/developing-now.md.html)
+## [What we're developing now](./developing-now.html)
 
 Have a look at present tasks so have an idea about what we will release next.
 
-### [In our backlog](/documentation/in-our-backlog.md.html)
+## [In our backlog](./in-our-backlog.html)
 
 Check our to do list. We're not developing these items now, but we will, as soon as we get to them.
 
-## Who we are
+### Who we are
 
 We are the Commmon Transit Convention API developer team. We are creating our APIs through the Agile process, as you can see when you look through the links above.
 
 If you have any questions, or you wish to get in touch, please talk to your usual Software Development Support Team contact, or email SDSTeam@hmrc.gov.uk
 
-## Related API documentation
+### Related API documentation
 <!--- Section owner: MTD Programme --->
 
   * [Service Guide](https://developer.service.hmrc.gov.uk/guides/common-transit-convention-traders-service-guide/)
   * [CTC Traders API specifications](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0)
 
-## Changelog
+### Changelog
 <!--- Section owner: MTD Programme --->
 
 Version 1.0

@@ -3,15 +3,14 @@ title: Common Transit Convention Traders API roadmap
 weight: 4
 ---
 
-
 # In our backlog
 
-We will move these into into our development queue as we finish our existing development tasks.  
 
-### CTC Traders API
+We will move these into into our development queue as we finish our existing development tasks.
 
+## CTC Traders API    
 
-
+<html>
 <table>
   <tr>
     <th>Predicted completion</th>
@@ -31,9 +30,12 @@ We will move these into into our development queue as we finish our existing dev
     <td>Retrieve all active departures</td>
     <td>PULL all messages send within 21 days for active departures</td>
   </tr>
-</table>  
+</table>
+</html>
 
-<h3>Test Support API</h3>
+## Test Support API
+
+<html>
 <table>
   <tr>
     <th>Predicted completion</th>
@@ -66,11 +68,12 @@ We will move these into into our development queue as we finish our existing dev
     <td>Test a message from the office of departure if a trader's guarantee details aren't valid</td>
   </tr>
   <tr>
-  <td>Test a control decision notification (IE060)</td>
-  <td>Test a notification that the office of departure wishes to carry out a control of control of goods</td>
-</tr>
-<tr>
-<td>Creating documentation</td>
-<td>Creating the documentation for to support the Test API</td>
-</tr>
+    <td>Test a control decision notification (IE060)</td>
+    <td>Test a notification that the office of departure wishes to carry out a control of control of goods</td>
+  </tr>
+  <tr>
+    <td>Creating documentation</td>
+    <td>Creating the documentation for to support the Test API</td>
+  </tr>
 </table>
+</html>
