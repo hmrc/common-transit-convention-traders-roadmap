@@ -53,7 +53,7 @@ If you have any questions, or you wish to get in touch, please talk to your usua
 
 Version 1.0
 
-15 July 2020
+24 August 2020
 
 What changed:
 
