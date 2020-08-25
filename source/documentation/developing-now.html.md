@@ -24,25 +24,27 @@ We will update these and release them as soon as they are ready. We expect this 
     <th>Description</th>
   </tr>
   <tr>
-    <th rowspan="5"> Mid September 2020</th>
-    <td>Submit a declaration data message (IE015)</td>
-    <td>Submit a declaration data message so a trader can start the departure process</td>
+    <th rowspan="6"> Mid September 2020</th>
+  </tr>
+   <tr>
+    <td>Submit a Declaration cancellation request message (IE014)</td>
+    <td>Send a message to cancel your declaration data message because, for example, a duplicate entry</td>
   </tr>
   <tr>
-    <td>Retrieve a single Movement Departure details</td>
-    <td>Retrieve a Movement Departure's status and details</td>
+    <td>Submit a request for release message (IE054)</td>
+    <td>Send a message to cancel your declaration data message because, for example, a duplicate entry</td>
   </tr>
   <tr>
-    <td>Retrieve all messages relating to a Movement Departure</td>
-    <td>PULL all messages sent within 21 days relating to a Movement Departure ID</td>
+    <td>PULL a Movement Departures for a departure ID</td>
+    <td>PULL all messages sent within 21 days of the goods being released relating to an Arrival Movement ID</td>
   </tr>
   <tr>
-    <td>Retrieve a single departure message</td>
-    <td>Use a message ID to PULL a single message</td>
+    <td>PULL all messages relating to a Movement Departure</td>
+    <td>Retrieve all messages sent within 21 days relating to a Movement Departure ID</td>
   </tr>
   <tr>
-    <td>Retrieve a single departure message</td>
-    <td>Use a message ID to PULL a single message</td>
+    <td>PULL a message relating to a Movement Departure and message ID</td>
+    <td>Use a message ID to get a single message</td>
   </tr>
 </table>
 </html>
@@ -55,11 +57,20 @@ We will update these and release them as soon as they are ready. We expect this 
     <th>Title</th>
     <th>Description</th>
   </tr>
+   <tr>
+    <th rowspan="6"> Early September 2020</th>
+  </tr>
   <tr>
-    <th rowspan="1"> Early September 2020</th>
+    <td>Test for Arrival Notification rejection message (IE008)</td>
+    <td>Test for a message from the office of destination rejecting the traders Arrival Notification (IE007)</td>
+   </tr>
+   <tr>
+    <td>Test for Discrepancies message (IE019)</td>
+    <td>Test for a message from the office of destination that details discrepancies</td>
+   </tr>
+  <tr>
     <td>Test for declaration received message (IE928)</td>
     <td>Test for a positive acknowledgement of a departure declaration message (IE015)</td>
-
   </tr>
 </table>
 </html>
