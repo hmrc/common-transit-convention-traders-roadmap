@@ -18,15 +18,6 @@ We will move these into into our development queue as we finish our existing dev
     <th>Description</th>
   </tr>
   <tr>
-    <th rowspan="3"> Late September 2020</th>
-    <td>Submit a declaration cancellation request (IE014)</td>
-    <td>Submit a message to cancel a Movement Departure if the trader has already submitted a Declaration (IE015)</td>
-  </tr>
-  <tr>
-    <td>Retrieve all messages relating to a Movement Departure</td>
-    <td>PULL all messages sent within 21 days relating to a Movement Departure ID</td>
-  </tr>
-  <tr>
     <td>Retrieve all active departures</td>
     <td>PULL all messages send within 21 days for active departures</td>
   </tr>
