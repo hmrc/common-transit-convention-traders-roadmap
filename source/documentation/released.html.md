@@ -27,6 +27,9 @@ We will continuously update our releases as they become available.
 |**[ PULL a Movement Arrival for an arrival ID](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0#_pull-a-movement-arrival-for-an-arrival-id_get_accordion)**| Retrieve a Movement Arrival's status and details|
 |**[PULL a message related to a Movement Arrival and message ID](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0#_pull-a-message-relating-to-a-movement-arrival-and-message-id_get_accordion)** |Use a message ID to PULL a single message|CTC Traders API
 |**[PULL all Movement Arrivals](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0#_pull-all-movement-arrivals_get_accordion)**|PULL all messages sent within 21 days that relate to a particular trader|
+|**[Send a declaration data message (IE015](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0#_send-a-declaration-data-message_post_accordion)**|Send a declaration data message so a trader can start the departure process|
+    
+
 
 
 
