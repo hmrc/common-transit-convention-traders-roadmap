@@ -25,7 +25,6 @@ We will update these and release them as soon as they are ready. We expect this 
   </tr>
   <tr>
     <th rowspan="6"> Mid September 2020</th>
-    <td>Send a declaration data message (IE015)</td>
     <td>Send a declaration data message so a trader can start the departure process</td>
   </tr>
    <tr>
