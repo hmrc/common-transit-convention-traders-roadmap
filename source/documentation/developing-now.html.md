@@ -57,11 +57,20 @@ We will update these and release them as soon as they are ready. We expect this 
     <th>Title</th>
     <th>Description</th>
   </tr>
+   <tr>
+    <th rowspan="6"> Early September 2020</th>
+  </tr>
   <tr>
-    <th rowspan="1"> Early September 2020</th>
+    <td>Test for Arrival Notification rejection message (IE008)</td>
+    <td>Test for a message from the office of destination rejecting the traders Arrival Notification (IE007)</td>
+   </tr>
+   <tr>
+    <td>Test for Discrepancies message (IE019)</td>
+    <td>Test for a message from the office of destination that details discrepancies</td>
+   </tr>
+  <tr>
     <td>Test for declaration received message (IE928)</td>
     <td>Test for a positive acknowledgement of a departure declaration message (IE015)</td>
-
   </tr>
 </table>
 </html>
