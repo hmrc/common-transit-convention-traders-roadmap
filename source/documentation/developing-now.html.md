@@ -50,7 +50,7 @@ We will update these and release them as soon as they are ready. We expect this 
     <th>Description</th>
   </tr>
    <tr>
-    <th rowspan="8"> Early September 2020</th>
+    <th rowspan="20"> Early September 2020</th>
   </tr>
   <tr>
     <td>Test for Arrival Notification rejection message (IE008)</td>
