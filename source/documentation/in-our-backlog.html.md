@@ -17,6 +17,7 @@ We will move these into into our development queue as we finish our existing dev
     <th>Title</th>
     <th>Description</th>
   </tr>
+   <th rowspan="8"> September 2020</th>
   <tr>
     <td>Retrieve all active departures</td>
     <td>PULL all messages send within 21 days for active departures</td>
@@ -35,24 +36,13 @@ We will move these into into our development queue as we finish our existing dev
   </tr>
   <tr>
     <th rowspan="8"> September 2020</th>
-    <td>Test for an unloading permission message (IE043)</td>
-    <td>Test for an unloading permission message to the trader at departure)</td>
-   </tr>
     <tr>
-    <td>Test for unloading remarks rejection message (IE058)</td>
-    <td>Test for a message from the office of destination that there are errors in the trader's unloading remarks message (IE044)</td>
-    </tr>
-    <tr>
-    <td>Test no release for transit message (IE051)</td>
-    <td>Test a message from the office of departure that the movement cannot be released for transit</td>
-    </tr>
-    <tr>
-    <td>Test guarantee not valid message (IE055)</td>
-    <td>Test a message from the office of departure if a trader's guarantee details aren't valid</td>
+    <td>Test a guarantee not valid message (IE055)</td>
+    <td>Test a message from the office at departure if a trader's guarantee details aren't valid</td>
   </tr>
   <tr>
-    <td>Test a control decision notification (IE060)</td>
-    <td>Test a notification that the office of departure wishes to carry out a control of control of goods</td>
+    <td>Test a write-off notification (IE045)</td>
+    <td>Test a message from the office at departure that the transit movement has been discharged</td>
   </tr>
   <tr>
     <td>Creating documentation</td>
