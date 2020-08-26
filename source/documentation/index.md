@@ -23,16 +23,16 @@ We are now in [Beta](https://www.gov.uk/help/beta). Some endpoints are ready for
 |**Release to production environment**| Traders can now use the API to send and receive messages to and from the offices of departure and arrivals|March 2021|
 
 
-## [What we have released](https://developer.qa.tax.service.gov.uk/roadmaps/common-transit-convention-traders-roadmap/documentation/released.html)
+## [What we have released](documentation/released.html)
 
 See what we have released, either to the HMRC's sandbox environment or to live production.
 
 
-## [What we're developing now](https://developer.qa.tax.service.gov.uk/roadmaps/common-transit-convention-traders-roadmap/documentation/developing-now.html)
+## [What we're developing now](documentation/developing-now.html)
 
 Have a look at present tasks so have an idea about what we will release next.
 
-## [In our backlog](https://developer.qa.tax.service.gov.uk/roadmaps/common-transit-convention-traders-roadmap/documentation/in-our-backlog.html)
+## [In our backlog](documentation/in-our-backlog.html)
 
 Check our to do list. We're not developing these items now, but we will, as soon as we get to them.
 
