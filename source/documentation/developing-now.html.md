@@ -24,7 +24,7 @@ We will update these and release them as soon as they are ready. We expect this 
     <th>Description</th>
   </tr>
   <tr>
-    <th rowspan="6"> Mid September 2020</th>
+    <th rowspan="9"> Mid September 2020</th>
   </tr>
    <tr>
     <td>Submit a Declaration cancellation request message (IE014)</td>
