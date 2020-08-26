@@ -28,7 +28,7 @@ We will update these and release them as soon as they are ready. We expect this 
   </tr>
    <tr>
     <td>Submit a Declaration cancellation request message (IE014)</td>
-    <td>Send a message to cancel your declaration data message because, for example, a duplicate entry</td>
+    <td>Send a message to cancel your declaration data message because, for example, a duplicate entry has been made</td>
   </tr>
   <tr>
     <td>Submit a request for release message (IE054)</td>
