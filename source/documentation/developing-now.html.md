@@ -35,7 +35,7 @@ We will update these and release them as soon as they are ready. We expect this 
     <td>Send a message to cancel your declaration data message because, for example, a duplicate entry</td>
   </tr>
   <tr>
-    <td>PULL a message relating to a Movement Departure and message ID</td>
+    <td>Get a message relating to a Movement Departure and message ID</td>
     <td>Use a message ID to get a single message</td>
   </tr>
 </table>
