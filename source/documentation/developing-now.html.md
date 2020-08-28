@@ -35,7 +35,7 @@ We will update these and release them as soon as they are ready. We expect this 
     <td>Send a message to cancel your declaration data message because, for example, a duplicate entry</td>
   </tr>
   <tr>
-    <td>PULL a message relating to a Movement Departure and message ID</td>
+    <td>Get a message relating to a Movement Departure and message ID</td>
     <td>Use a message ID to get a single message</td>
   </tr>
 </table>
@@ -81,11 +81,11 @@ We will update these and release them as soon as they are ready. We expect this 
     <td>Test a message from the office at departure that the movement cannot be released for transit</td>
   </tr>
    <tr>
-    <td>Test for a cancellation decision message(IE009)</td>
+    <td>Test for a cancellation decision message (IE009)</td>
     <td>Test a message from the office at departure in reference to a cancellation request(IE014) </td>
   </tr>
    <tr>
-    <td>Test for a Declaration rejection message(IE016)</td>
+    <td>Test for a Declaration rejection message (IE016)</td>
     <td>Test a message from the office at departure rejecting a Declaration data message (IE015)</td>
   </tr>
    <tr>
