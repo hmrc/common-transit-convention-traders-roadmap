@@ -36,10 +36,7 @@ We will move these into into our development queue as we finish our existing dev
   </tr>
   <tr>
     <th rowspan="8"> September 2020</th>
-    <tr>
-    <td>Test a guarantee not valid message (IE055)</td>
-    <td>Test a message from the office at departure if a trader's guarantee details aren't valid</td>
-  </tr>
+
   <tr>
     <td>Creating documentation</td>
     <td>Creating the documentation for to support the Test API</td>
