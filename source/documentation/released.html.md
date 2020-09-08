@@ -31,6 +31,8 @@ We will continuously update our releases as they become available.
 |**[Send a declaration data cancellation request (IE014)](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0#_send-a-message-related-to-a-movement-departure_post_accordion)**| Post a message asking to cancel your declaration data|
 |**[Get a Movement Departure for a departure ID](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0#_pull-a-movement-departure-for-a-departure-id_get_accordion)** |Retrieve all messages sent within 21 days of goods being released, relating to a Movement Departure ID|
 |**[Get all messages relating to a Movement Departure](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0#_pull-all-messages-relating-to-a-movement-departure_get_accordion)**| Retrieve all messages sent within 21 days relating to a Movement Departure ID| 
+|**[Send an unloading remarks message (IE044)](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0#_send-a-message-related-to-an-movement-arrival_post_accordion)**| Send a message to the office of destination with details of the the goods being unloaded|
+
 
 
 ## CTC Trader Test  API
