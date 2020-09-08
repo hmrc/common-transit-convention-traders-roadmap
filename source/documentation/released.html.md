@@ -38,7 +38,9 @@ We will continuously update our releases as they become available.
 | **Title** | **Description** |
 |------|-------------|
 |**[Test for an unloading permission message (IE043)](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders-test-support/1.0#_inject-a-fake-ncts-arrival-message_post_accordion)**| Test for an unloading permission message to the trader at destination| 
-|**[Test a write-off notification (IE045)](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders-test-support/1.0#_inject-a-fake-ncts-departure-message_post_accordion)**| Test a message from the office at departure that the transit movement has been discharged| 
+|**[Test a write-off notification (IE045)](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders-test-support/1.0#_inject-a-fake-ncts-departure-message_post_accordion)**| Test a message from the office at departure that the transit movement has been discharged|
+|**[Test for an unloading remarks rejection message (IE058)](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders-test-support/1.0#_inject-a-fake-ncts-arrival-message_post_accordion)**| Test for a message from the office at destination that there are errors in the trader's unloading remarks message (IE044)|
+
 
     
 
