@@ -52,10 +52,6 @@ We will update these and release them as soon as they are ready. We expect this 
    <tr>
     <th rowspan="20"> Early September 2020</th>
   </tr>
-  <tr>
-    <td>Test for Arrival Notification rejection message (IE008)</td>
-    <td>Test for a message from the office of destination rejecting the traders Arrival Notification (IE007)</td>
-   </tr>
    <tr>
     <td>Test for discrepancies message (IE019)</td>
     <td>Test for a message from the office of destination that details discrepancies</td>
