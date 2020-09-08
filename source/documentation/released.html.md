@@ -48,5 +48,6 @@ We will continuously update our releases as they become available.
 |**[Test for a Declaration rejection message (IE016)](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders-test-support/1.0#_inject-a-fake-ncts-departure-message_post_accordion)**| Test a message from the office at departure rejecting a Declaration data message (IE015)|
 |**[Test for discrepancies message (IE019)](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders-test-support/1.0#_inject-a-fake-ncts-arrival-message_post_accordion)**| Test for a message from the office of destination that details discrepancies| 
 |**[Test for a no release for transit message (IE051)](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders-test-support/1.0#_inject-a-fake-ncts-departure-message_post_accordion)**| Test a message from the office at departure that the movement cannot be released for transit| 
+|**[Test for a control decision notification (IE060)](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders-test-support/1.0#_inject-a-fake-ncts-departure-message_post_accordion)**| Test a message from the office at departure to tell the trader they wish to carry out a control of the goods| 
 
 
