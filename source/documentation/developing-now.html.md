@@ -52,10 +52,7 @@ We will update these and release them as soon as they are ready. We expect this 
    <tr>
     <th rowspan="20"> Early September 2020</th>
   </tr>
-  <tr>
-    <td>Test for a good release notification (IE025)</td>
-    <td>Test a message from the office at destination that the trader can release the goods</td>
-  </tr>
+ 
 </table>
 </html>
 
