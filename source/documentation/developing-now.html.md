@@ -64,10 +64,6 @@ We will update these and release them as soon as they are ready. We expect this 
     <td>Test for declaration received message (IE928)</td>
     <td>Test for a positive acknowledgement of a departure declaration message (IE015)</td>
   </tr>
-    <tr>
-    <td>Test for an unloading remarks rejection message (IE058)</td>
-    <td>Test for a message from the office at destination that there are errors in the trader's unloading remarks message (IE044)</td>
-  </tr>
    <tr>
     <td>Test for an MRN allocated message (IE028)</td>
     <td>Test for a message from the office at departure allocating a Movement Reference Number (MRN) </td>
