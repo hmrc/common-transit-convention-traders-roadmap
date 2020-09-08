@@ -44,7 +44,8 @@ We will continuously update our releases as they become available.
 |**[Test for declaration received message (IE928)](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders-test-support/1.0#_inject-a-fake-ncts-departure-message_post_accordion)**| Test for a positive acknowledgement of a departure declaration message (IE015)|
 |**[Test for an MRN allocated message (IE028)](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders-test-support/1.0#_inject-a-fake-ncts-departure-message_post_accordion)**| Test for a message from the office at departure allocating a Movement Reference Number (MRN)|
 |**[Test for a good released for transit mmessage (IE029)](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders-test-support/1.0#_inject-a-fake-ncts-departure-message_post_accordion)**| Test for a message from the office at departure to say the goods are released for transit|
- 
+|**[Test for a cancellation decision message (IE009)](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders-test-support/1.0#_inject-a-fake-ncts-departure-message_post_accordion)**| Test a message from the office at departure in reference to a cancellation request(IE014)|
+
  
 
 
