@@ -56,6 +56,10 @@ We will update these and release them as soon as they are ready. We expect this 
     <td>Test a guarantee not valid message (IE055)</td>
     <td>Test a message from the office at departure if a trader's guarantee details aren't valid</td>
   </tr>
+   <tr>
+    <td>Test a write-off notification (IE045)</td>
+    <td>Test a message from the office at departure to the trader to say the movement is finished</td>
+  </tr>
  
 </table>
 </html>
