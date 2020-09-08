@@ -53,10 +53,6 @@ We will update these and release them as soon as they are ready. We expect this 
     <th rowspan="20"> Early September 2020</th>
   </tr>
    <tr>
-    <td>Test for a no release for transit message (IE051)</td>
-    <td>Test a message from the office at departure that the movement cannot be released for transit</td>
-  </tr>
-   <tr>
     <td>Test for a control decision notification (IE060)</td>
     <td>Test a message from the office at departure to tell the trader they wish to carry out a control of the goods</td>
   </tr>
