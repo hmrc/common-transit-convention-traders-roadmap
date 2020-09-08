@@ -61,10 +61,6 @@ We will update these and release them as soon as they are ready. We expect this 
     <td>Test a message from the office at departure that the movement cannot be released for transit</td>
   </tr>
    <tr>
-    <td>Test for a cancellation decision message (IE009)</td>
-    <td>Test a message from the office at departure in reference to a cancellation request(IE014) </td>
-  </tr>
-   <tr>
     <td>Test for a Declaration rejection message (IE016)</td>
     <td>Test a message from the office at departure rejecting a Declaration data message (IE015)</td>
   </tr>
