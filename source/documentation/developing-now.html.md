@@ -52,6 +52,10 @@ We will update these and release them as soon as they are ready. We expect this 
    <tr>
     <th rowspan="20"> Early September 2020</th>
   </tr>
+   <tr>
+    <td>Test a guarantee not valid message (IE055)</td>
+    <td>Test a message from the office at departure if a trader's guarantee details aren't valid</td>
+  </tr>
  
 </table>
 </html>
