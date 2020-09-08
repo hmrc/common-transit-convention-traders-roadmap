@@ -56,10 +56,6 @@ We will update these and release them as soon as they are ready. We expect this 
     <td>Test for discrepancies message (IE019)</td>
     <td>Test for a message from the office of destination that details discrepancies</td>
    </tr>
-  <tr>
-    <td>Test for declaration received message (IE928)</td>
-    <td>Test for a positive acknowledgement of a departure declaration message (IE015)</td>
-  </tr>
    <tr>
     <td>Test for an MRN allocated message (IE028)</td>
     <td>Test for a message from the office at departure allocating a Movement Reference Number (MRN) </td>
