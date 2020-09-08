@@ -41,10 +41,6 @@ We will move these into into our development queue as we finish our existing dev
     <td>Test a message from the office at departure if a trader's guarantee details aren't valid</td>
   </tr>
   <tr>
-    <td>Test a write-off notification (IE045)</td>
-    <td>Test a message from the office at departure that the transit movement has been discharged</td>
-  </tr>
-  <tr>
     <td>Creating documentation</td>
     <td>Creating the documentation for to support the Test API</td>
   </tr>
