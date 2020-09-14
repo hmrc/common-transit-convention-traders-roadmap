@@ -32,9 +32,6 @@ See what we have released, either to the HMRC's sandbox environment or to live p
 
 Have a look at present tasks so have an idea about what we will release next.
 
-## [In our backlog](documentation/in-our-backlog.html)
-
-Check our to do list. We're not developing these items now, but we will, as soon as we get to them.
 
 ### Who we are
 
