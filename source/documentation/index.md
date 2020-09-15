@@ -48,10 +48,18 @@ If you have any questions, or you wish to get in touch, please talk to your usua
 ### Changelog
 <!--- Section owner: MTD Programme --->
 
+Version 1.1
+
+15 September 2020
+
+What's changed:
+
+* Updates to our roadmap showing completed tasks. 
+
 Version 1.0
 
 24 August 2020
 
 What changed:
 
-* First release
+* First release.

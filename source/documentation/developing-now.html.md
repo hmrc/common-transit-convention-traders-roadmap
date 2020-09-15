@@ -11,7 +11,7 @@ We will update these and release them as soon as they are ready. We expect this 
 
 | **Project** |**Description** |
 |------|-------------|
-|**Test Support API**| You will be able to place CTC test messages as if they were from the NCTS. It is for use with HMRC’s sandbox environment only. Check out [Test Support API specifications](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders-test-support/1.0)|Test Support API|
+|**Test Support API**| You will be able to place CTC test messages as if they were from the NCTS. It is for use with HMRC’s sandbox environment only. Check out [CTC Traders Test Support API specifications](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders-test-support/1.0)|Test Support API|
 |**Complete departures endpoints**|You will be able to test all the departures endpoints in HMRC's sandbox environment|
 
 ## Gathering feedback   
