@@ -18,8 +18,7 @@ We are now in [Beta](https://www.gov.uk/help/beta). Some endpoints are ready for
 
 
 | **Delivery** | **Description** |**Date** |
-|------|-------------|--------|
-|**Switch from using Test Support API to Trader Test**| This will allow you to request authentic messages from the NCTS | October 2020 |   
+|------|-------------|--------|   
 |**Release to production environment**| Traders can now use the API to send and receive messages to and from the offices of departure and arrivals|March 2021|
 
 
