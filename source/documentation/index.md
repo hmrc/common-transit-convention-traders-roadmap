@@ -19,7 +19,7 @@ We are now in [Beta](https://www.gov.uk/help/beta). Some endpoints are ready for
 
 | **Delivery** | **Description** |**Date** |
 |------|-------------|--------|   
-|**Release to production environment**| Traders can now use the API to send and receive messages to and from the offices of departure and arrivals|March 2021|
+|**Release to the live environment**| The API can be used in the live environment to carry out movements |March 2021|
 
 
 ## [What we have released](documentation/released.html)
