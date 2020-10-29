@@ -36,7 +36,7 @@ We will continuously update our releases as they become available.
 
 
 
-## CTC Trader Test  API
+## CTC Trader Test  Support API
 
 | **Title** | **Description** |
 |------|-------------|
