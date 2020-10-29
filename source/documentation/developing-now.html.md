@@ -27,9 +27,3 @@ For example, items we are currently working on include:
 - Plain language error descriptions within response messages  
 - Trader test pack content  
 
-
-## On-going API development
-
-At present our major focus is to prepare for the move to Trader Test in October 2020.
-
-We continue to and improve and refine our API as well as making sure it works harmoniously with other areas of HMRC. If you find any bugs in our service, please get in touch with our developers direct through the [GitHub Issues page](https://github.com/hmrc/common-transit-convention-traders/issues).
