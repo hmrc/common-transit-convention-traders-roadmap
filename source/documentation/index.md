@@ -24,7 +24,7 @@ We are now in [Beta](https://www.gov.uk/help/beta). Some endpoints are ready for
 
 ## [What we have released](documentation/released.html)
 
-See what we have released, either to the HMRC's sandbox environment or to live production.
+See what we have released and what you can access now.
 
 
 ## [What we're developing now](documentation/developing-now.html)
