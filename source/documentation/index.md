@@ -8,7 +8,7 @@ description: Software developers, designers, product owners or business analysts
 
 We are creating the Common Transit Convention (CTC) Traders API to allow traders to send and receive Arrival and Departure Notifications to customs and border offices in the UK and the EU.  
 
-The roadmap shows you our development plans as well endpoints and projects we have finished. We are an Agile team and we will be updating this roadmap as we complete items and start working on new ones.
+The roadmap shows you our development plans as well as endpoints and projects we have finished. We are an Agile team and we will be updating this roadmap as we complete items and start working on new ones.
 
 We are now in [Beta](https://www.gov.uk/help/beta). Some endpoints are ready for you to test in HMRC’s sandbox environment. More will follow.
 
