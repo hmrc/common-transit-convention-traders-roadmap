@@ -5,14 +5,13 @@ weight: 3
 
 # What we're developing now   
 
-We will update these and release them as soon as they are ready. We expect this to be in the next few weeks.
 
 ## Project developments    
 
 | **Project** |**Description** |
 |------|-------------|
-|**CTC Traders Test Support API**| You will be able to place CTC test messages as if they were from the NCTS. It is for use with HMRC’s sandbox environment only. Check out [CTC Traders Test Support API specifications](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders-test-support/1.0)|Test Support API|
-|**Complete departures endpoints**|You will be able to test all the departures endpoints in HMRC's sandbox environment|
+|**Northern Ireland**| We will be starting work on our requirements to support trade to and from Northern Ireland after EU exit. This functionality is due to be release by the end of March 2021.  
+
 
 ## Gathering feedback   
 

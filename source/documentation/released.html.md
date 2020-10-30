@@ -9,9 +9,7 @@ We will continuously update our releases as they become available.
 
 ## Project developments
 
-| **Project** |**Description** |
-|------|-------------|
-|**Arrivals**| We have completed Arrivals endpoints so they can be tested in HMRC's sandbox environment|
+Departures and Arrivals endpoints are all available in external test and you can use them with the Test Support API.
 
 
 ## CTC Traders API
