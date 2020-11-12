@@ -10,7 +10,7 @@ weight: 3
 
 | **Project** |**Description** |
 |------|-------------|
-|**Northern Ireland**| We will be starting work on our requirements to support trade to and from Northern Ireland after EU exit. This functionality is due to be release by the end of March 2021.  
+|**Northern Ireland**| We will develop the CTC API functionality so that it can manage transit to and from Northern Ireland after the end of the transition period. This functionality is due to be released by the end of March 2021.  
 
 
 ## Gathering feedback   
