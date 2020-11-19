@@ -30,7 +30,7 @@ Departures and Arrivals endpoints are all available in external test and you can
 |**[Get a Movement Departure for a departure ID](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0#_get-a-movement-departure-for-a-departure-id_get_accordion)** |Retrieve all messages sent within 28 days of goods being released, relating to a Movement Departure ID|
 |**[Get a message related to a Movement Departure and message ID](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0#_get-a-message-relating-to-a-movement-departure-and-message-id_get_accordion)** |Use a message ID to get a single departure message|CTC Traders API
 |**[Get all messages relating to a Movement Departure](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0#_get-all-messages-relating-to-a-movement-departure_get_accordion)**| Get all messages sent within 28 days relating to a Movement Departure ID|
-|**[Send an unloading remarks message (IE044)](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0#_send-a-message-related-to-an-movement-arrival_post_accordion)**| Send a message to the office of destination with details of the the goods being unloaded|
+|**[Send an unloading remarks message (IE044)](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0#_send-a-message-related-to-an-movement-arrival_post_accordion)**| Send a message to the office of destination with details of the goods being unloaded|
 
 
 
