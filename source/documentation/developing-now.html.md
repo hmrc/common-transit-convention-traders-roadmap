@@ -20,9 +20,5 @@ We are carrying out research with developers, testers and business managers. If 
 ## Improving our documentation
 
 As we get your feedback we try and respond to it as fast as we can to improve our documentation and add clarity. We are also continuing to improve and update our documentation.
-For example, items we are currently working on include:
 
-- XML mapping guides  
-- Plain language error descriptions within response messages  
-- Trader test pack content  
 
