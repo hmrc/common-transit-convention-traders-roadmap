@@ -34,7 +34,7 @@ Have a look at present tasks so have an idea about what we will release next.
 
 ### Who we are
 
-We are the Commmon Transit Convention API developer team. We are creating our APIs through the Agile process, as you can see when you look through the links above.
+We are the Common Transit Convention API developer team. We are creating our APIs through the Agile process, as you can see when you look through the links above.
 
 If you have any questions, or you wish to get in touch, please talk to your usual Software Development Support Team contact, or email SDSTeam@hmrc.gov.uk
 
