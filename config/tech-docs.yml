@@ -8,7 +8,7 @@ service_link: https://developer.service.hmrc.gov.uk/api-documentation
 
 # Links to show on right-hand-side of header
 header_links:
-  Common Transit Convention Traders API roadmap: /
+  Common Transit Convention Traders API roadmap: /roadmaps/common-transit-convention-traders-roadmap/
   Documentation: /api-documentation/docs/using-the-hub
   Applications: /developer/applications
   Support: /developer/support
