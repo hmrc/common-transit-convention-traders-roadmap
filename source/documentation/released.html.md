@@ -7,9 +7,13 @@ weight: 2
 
 We will continuously update our releases as they become available.
 
-## Project developments
+## What you need to do
 
-Departures and Arrivals endpoints are now available for you to test in our sandbox environment. We have integrated this sandbox  with the NCTS Trader Test service.
+You can now test with the Trader Test service within the sandbox environment. 
+
+Trader Test will automatically simulate and give you responses just like in a real life scenario. You can also request NCTS support staff to generate the manual responses as if Border Force staff are processing your goods. 
+
+For more information read [this guide](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/940784/NCTS_Trader_Test_Access_Channels_and_Support_v1.1.pdf) 
 
 ## CTC Traders API
 
