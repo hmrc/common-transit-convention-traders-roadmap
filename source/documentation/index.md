@@ -3,7 +3,7 @@ title: Common Transit Convention Traders API roadmap
 weight: 1
 description: Software developers, designers, product owners or business analysts - see how you can integrate your software with Common Transit Convention Traders API.
 ---
-# Common Transit Convention Traders API roadmap</H1>
+# Common Transit Convention Traders API roadmap
 
 
 We are creating the Common Transit Convention (CTC) Traders API to allow traders to send and receive Arrival and Departure Notifications to customs and border offices in the UK and the EU.  
@@ -43,7 +43,6 @@ If you have any questions, or you wish to get in touch, please talk to your usua
 
   * [Service Guide](https://developer.service.hmrc.gov.uk/guides/common-transit-convention-traders-service-guide/)
   * [CTC Traders API specifications](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0)
-  * [CTC Traders Test Support API specifications](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders-test-support/1.0)
 
 ### Changelog
 <!--- Section owner: MTD Programme --->
