@@ -9,8 +9,7 @@ We will continuously update our releases as they become available.
 
 ## Project developments
 
-Departures and Arrivals endpoints are all available in external test and you can use them with the Test Support API.
-
+Departures and Arrivals endpoints are now available for you to test in our sandbox environment. We have integrated this sandbox  with the NCTS Trader Test service.
 
 ## CTC Traders API
 
