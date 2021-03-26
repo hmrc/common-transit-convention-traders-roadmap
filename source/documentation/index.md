@@ -20,7 +20,7 @@ We are now in [Beta](https://www.gov.uk/help/beta). Some endpoints are ready for
 | **Delivery** | **Description** |**Date** |
 |------|-------------|--------|   
 |**Release GB functionality to the live environment**|The API can be used in the live environment to carry out movements to and from Great Britain (but not to and from Northern Ireland)|31 March 2021|
-|**Release NI functionality to the sandbox environment**|The API can be used in the sandbox environment to test movements from and to Northern Ireland|April 2021|
+|**Release NI functionality to the sandbox environment**|The API can be used in the sandbox environment to test movements to and from Northern Ireland|April 2021|
 |**Release NI functionality to the live environment**|The API can be used in the live environment to carry out movements to and from Northern Ireland|May 2021|
 
 
