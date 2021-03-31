@@ -45,6 +45,7 @@ If you have any questions, or you wish to get in touch, please talk to your usua
 
   * [Service Guide](https://developer.service.hmrc.gov.uk/guides/common-transit-convention-traders-service-guide/)
   * [CTC Traders API specifications](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0)
+  * [CTC Testing Guide](https://developer.service.hmrc.gov.uk/guides/common-transit-convention-traders-testing-guide)
 
 ### Changelog
 <!--- Section owner: MTD Programme --->
