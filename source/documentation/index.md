@@ -51,7 +51,7 @@ If you have any questions, or you wish to get in touch, please talk to your usua
 
 Version 1.2
 
-31st March 2021
+13th April 2021
 
 What's changed: 
 
