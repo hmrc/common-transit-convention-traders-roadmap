@@ -16,11 +16,11 @@ We are now in live production for GB only.
 ## Key release dates
 
 
-| **Delivery** | **Description** |**Date** |
-|------|-------------|--------|   
-|**Release GB functionality to the live environment**|The API can be used in the live environment to carry out movements to and from Great Britain (but not to and from Northern Ireland)|31 March 2021|
-|**Release NI functionality to the sandbox environment**|The API can be used in the sandbox environment to test movements to and from Northern Ireland|April 2021|
-|**Release NI functionality to the live environment**|The API can be used in the live environment to carry out movements to and from Northern Ireland|May 2021|
+| **Delivery**                                            | **Description**                                                                                                                     | **Date**      |
+| ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------- |
+| **Release GB functionality to the live environment**    | The API can be used in the live environment to carry out movements to and from Great Britain (but not to and from Northern Ireland) | 15 April 2021 |
+| **Release NI functionality to the sandbox environment** | The API can be used in the sandbox environment to test movements to and from Northern Ireland                                       | 22 April 2021 |
+| **Release NI functionality to the live environment**    | The API can be used in the live environment to carry out movements to and from Northern Ireland                                     | May 2021      |
 
 
 ## [What we have released](documentation/released.html)
@@ -32,12 +32,11 @@ See what we have released and what you can access now.
 
 Have a look at present tasks so have an idea about what we will release next.
 
+## Improving our documentation
 
-### Who we are
+We are continually updating and improving all our documentation and developer hub pages.
 
-We are the Common Transit Convention API developer team. We are creating our APIs through the Agile process, as you can see when you look through the links above.
-
-If you have any questions, or you wish to get in touch, please talk to your usual Software Development Support Team contact, or email SDSTeam@hmrc.gov.uk
+We welcome your feedback or suggestions for improvements, email your ideas to <a href = "mailto: SDSTeam@HMRC.gov.uk">SDSTeam@HMRC.gov.uk</a>.
 
 ### Related API documentation
 <!--- Section owner: MTD Programme --->
@@ -48,6 +47,15 @@ If you have any questions, or you wish to get in touch, please talk to your usua
 
 ### Changelog
 <!--- Section owner: MTD Programme --->
+
+Version 1.3
+
+10 May 2021
+
+What’s changed:
+
+* New published dates added for Great Britain live release and Northern Ireland test release
+
 
 Version 1.2
 

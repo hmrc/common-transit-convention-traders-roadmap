@@ -41,3 +41,5 @@ Staticfile.auth
 /.project
 /logs
 .idea
+
+.metals/
