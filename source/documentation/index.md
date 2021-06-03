@@ -53,6 +53,7 @@ Version 1.4
 13 May 2021
 
 What's changed:
+
 * New published dates added for Northern Ireland live release
 
 <details>
