@@ -19,7 +19,7 @@ We are now in live production for Great Britain and Northern Ireland.
 | **Delivery**                                            | **Description**                                                                                                                     | **Date**      |
 | ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------- |
 | **Release Northern Ireland functionality**              | The API can be used in the live environment to carry out movements to and from Northern Ireland                                     | 13 May        |
-| **Release Northern Ireland test functionality**         | The API can be used in the sandbox environment to test movements to and from Northern Ireland                                       | 20 21 22 April 2021
+| **Release Northern Ireland test functionality**         | The API can be used in the sandbox environment to test movements to and from Northern Ireland                                       | 21 April 2021
 | **Release GB functionality**                            | The API can be used in the live environment to carry out movements to and from Great Britain                                        | 15 April 2021 |
 
 
