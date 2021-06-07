@@ -8,9 +8,9 @@ description: Software developers, designers, product owners or business analysts
 
 We have created the Common Transit Convention (CTC) Traders API to allow traders to send and receive Arrival and Departure Notifications to customs and border offices in the UK and the EU.  
 
-The roadmap shows you our development plans as well as endpoints and projects we have finished. We are an Agile team and we will be updating this roadmap as we complete items and start working on new ones.
+The roadmap shows you our development plans as well as endpoints and projects we have finished. We are an Agile team and we will be updating this roadmap as we complete milestones.
 
-We are now in live production for GB only.
+We are now in live production for Great Britain and Northern Ireland.
 
 
 ## Key release dates
@@ -18,9 +18,9 @@ We are now in live production for GB only.
 
 | **Delivery**                                            | **Description**                                                                                                                     | **Date**      |
 | ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------- |
-| **Release GB functionality to the live environment**    | The API can be used in the live environment to carry out movements to and from Great Britain (but not to and from Northern Ireland) | 15 April 2021 |
-| **Release NI functionality to the sandbox environment** | The API can be used in the sandbox environment to test movements to and from Northern Ireland                                       | 22 April 2021 |
-| **Release NI functionality to the live environment**    | The API can be used in the live environment to carry out movements to and from Northern Ireland                                     | May 2021      |
+| **Release Northern Ireland functionality**              | The API can be used in the live environment to carry out movements to and from Northern Ireland                                     | 13 May        |
+| **Release Northern Ireland test functionality**         | The API can be used in the sandbox environment to test movements to and from Northern Ireland                                       | 21 April 2021
+| **Release GB functionality**                            | The API can be used in the live environment to carry out movements to and from Great Britain                                        | 15 April 2021 |
 
 
 ## [What we have released](documentation/released.html)
@@ -47,6 +47,17 @@ We welcome your feedback or suggestions for improvements, email your ideas to <a
 
 ### Changelog
 <!--- Section owner: MTD Programme --->
+
+Version 1.4
+
+13 May 2021
+
+What's changed:
+
+* New published dates added for Northern Ireland live release
+
+<details>
+<summary>Previous changes</summary>
 
 Version 1.3
 
@@ -81,3 +92,5 @@ Version 1.0
 What changed:
 
 * First release.
+
+</details>
