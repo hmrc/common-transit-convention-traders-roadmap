@@ -5,6 +5,8 @@ description: Software developers, designers, product owners or business analysts
 ---
 # Common Transit Convention Traders API roadmap
 
+Find out the latest information, milestones plus service updates
+
 **Important news:**
 
 HMRC recently announced the intended closure of the legacy New Computerised Transit System (NCTS) XML channel which will take place on 30 November 2021. 
