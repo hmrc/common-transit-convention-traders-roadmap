@@ -15,9 +15,9 @@ It will not be possible for HMRC to continue to support these legacy channels, s
 
 **Please note**:
 
- - No new transit movements must be submitted using the NCTS XML and email channels after 28 February 2022. You cannot submit any declarations using the legacy system after this switch off date.
- - Any transit movements submitted to us before 28 February 2022, which are still progressing in our system up to 30 days after this date, will still be processed. Movements using the legacy system that begin after switch off will not be processed.
- - From 1 March 2022 no further messages will be able to be received or submitted via the email channel.
+ - no new transit movements must be submitted using the NCTS XML and email channels after 28 February 2022. You cannot submit any declarations using the legacy system after this switch off date.
+ - any transit movements submitted to us before 28 February 2022, which are still progressing in our system up to 30 days after this date, will still be processed. Movements using the legacy system that begin after switch off will not be processed.
+ - from 1 March 2022 no further messages will be able to be received or submitted via the email channel.
  
 ### Related API documentation
 <!--- Section owner: MTD Programme --->
