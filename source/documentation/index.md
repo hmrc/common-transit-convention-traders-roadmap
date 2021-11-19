@@ -7,16 +7,17 @@ description: Software developers, designers, product owners or business analysts
 
 Find out the latest information, milestones plus service updates
 
-**Important news:**
+**Important information**
 
-HMRC recently announced the intended closure of the legacy New Computerised Transit System (NCTS) XML channel which will take place on 30 November 2021. 
+The closure of both the legacy New Computerised Transit System (NCTS) XML and the legacy email channel will take place on 28 February 2022.
+As previously stated, the decision to decommission the legacy channels is designed to provide greater support to the new XML API and Web portal.
+It will not be possible for HMRC to continue to support these legacy channels, so we do not foresee any extension to this date for either channel.
 
-The ‘legacy’ email channel is still available for use and we will notify you once a decision has been made when this will be closed down.
+**Please note**:
 
-Please note:
-
- - No new transit movements must be submitted using the NCTS XML channel **after 30 November 2021**. You cannot submit any declarations using the legacy system after this switch off date.
- - Any transit movements submitted to us before 30 November 2021, which are still progressing in our system up to 30 days after this date, will still be processed. Movements using the legacy system that begin after switch off will not be processed.
+ - No new transit movements must be submitted using the NCTS XML and email channels after 28 February 2022. You cannot submit any declarations using the legacy system after this switch off date.
+ - Any transit movements submitted to us before 28 February 2022, which are still progressing in our system up to 30 days after this date, will still be processed. Movements using the legacy system that begin after switch off will not be processed.
+ - From 1 March 2022 no further messages will be able to be received or submitted via the email channel.
  
 ### Related API documentation
 <!--- Section owner: MTD Programme --->
