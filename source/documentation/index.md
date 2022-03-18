@@ -23,7 +23,7 @@ A beta version of the departure declaration API endpoint (IE015/CC015C), which w
 
 The closure of the legacy New Computerised Transit System (NCTS) XML channel started on 28 February 2022 and was completed on 13 March 2022.
 
-To support developers who are still migrating clients, declarations made into the legacy XML channel continued to be accepted whilst the closure process is in progress. 
+To support developers who are still migrating clients, declarations made into the legacy XML channel continued to be accepted whilst the closure process was in progress. 
 
 As previously stated, the decision to decommission the legacy XML channel is designed to provide greater support to the new XML API and Web portal.
 
@@ -31,7 +31,7 @@ It will not be possible for HMRC to continue to support this legacy channel, so 
 
 **Please note**:
 
- - The NCTS legacy XML channel no longer accepts any new declarations after 11:59pm on 13 March 2022.
+ - The NCTS legacy XML channel no longer accepts any new declarations.
  - We have changed our previously published intention to close the e-mail channel on 28 February 2022.  This will now take place on 31 May 2022.
 
 If you have any customers using the Common Transit Convention (CTC), you should have completed the work needed to enable them to continue to make declarations using the new CTC XML API. 
