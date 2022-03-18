@@ -7,9 +7,24 @@ description: Software developers, designers, product owners or business analysts
 
 Find out the latest information, milestones plus service updates.
 
+## Phase 5
+### What this Roadmap tells you
+This roadmap sets out our anticipated schedule for our current and future work in relation to API releases, for phase 5. We welcome feedback in regard to this work via [github](https://github.com/hmrc/common-transit-convention-traders/issues).
+
+### What are we working on now?
+We are working on releasing the API definition (Alpha).
+
+### What is coming next?
+A Beta version of the departure declaration API endpoint (IE015/CC015C), which will allow developers to start a phase 5 movement using a departure declaration.
+
+### Summary of work already done
+(Possibly included in future versions of the roadmap)
+
+## Phase 4
+
 **Important information**
 
-The closure of the legacy New Computerised Transit System (NCTS) XML channel will start to take place on 28 February 2022 and is expected to be completed in 13 days, from 28 February 2022 to 11:59pm on 13 March 2022.
+The closure of the legacy New Computerised Transit System (NCTS) XML channel started to take place on 28 February 2022 and was expected to be completed on 13 March 2022.
 
 To support developers who are still migrating clients, declarations made into the legacy XML channel will continue to be accepted whilst the closure process is in progress. This will give you a final opportunity to move your customers on to the new XML API channel.
 
