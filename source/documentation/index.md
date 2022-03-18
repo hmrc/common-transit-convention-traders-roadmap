@@ -8,14 +8,14 @@ description: Software developers, designers, product owners or business analysts
 Find out the latest information, milestones plus service updates.
 
 ## Phase 5
-### What this Roadmap tells you
+### What this roadmap tells you
 This roadmap sets out our anticipated schedule for our current and future work in relation to API releases, for phase 5. We welcome feedback in regard to this work via [github](https://github.com/hmrc/common-transit-convention-traders/issues).
 
 ### What are we working on now?
 We are working on releasing the API definition (Alpha).
 
 ### What is coming next?
-A Beta version of the departure declaration API endpoint (IE015/CC015C), which will allow developers to start a phase 5 movement using a departure declaration.
+A beta version of the departure declaration API endpoint (IE015/CC015C), which will allow developers to start a phase 5 movement using a departure declaration.
 
 ## Phase 4
 
