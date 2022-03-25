@@ -11,11 +11,18 @@ Find out the latest information, milestones plus service updates.
 ### What this roadmap tells you
 This roadmap sets out our anticipated schedule for our current and future work in relation to API releases, for phase 5. We welcome feedback in regard to this work via [github](https://github.com/hmrc/common-transit-convention-traders/issues).
 
+### What have we just released?
+The alpha endpoint has been released. To view it:
+
+1. Navigate to the [CTC Traders API specifications](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/).
+2. From the **Version and status** list, choose **v2.0 (Alpha)**.
+3. Click **View**.
+
 ### What are we working on now?
-We are working on releasing the API definition (Alpha).
+A beta version of the departure declaration API endpoint (IE015/CC015C), which will allow developers to start a Phase 5 movement using a departure declaration.
 
 ### What is coming next?
-A beta version of the departure declaration API endpoint (IE015/CC015C), which will allow developers to start a phase 5 movement using a departure declaration.
+Validation of departure declaration data payloads.
 
 ## Phase 4
 
