@@ -14,7 +14,7 @@ This roadmap sets out our anticipated schedule for our current and future work i
 ### What have we just released?
 The alpha endpoint has been released. To view it:
 
-1. Navigate to the [CTC Traders API specifications](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/).
+1. Navigate to the [CTC Traders API specifications](/api-documentation/docs/api/service/common-transit-convention-traders/2.0).
 2. From the **Version and status** list, choose **v2.0 (Alpha)**.
 3. Click **View**.
 
