@@ -16,7 +16,7 @@ Current development focuses on small messages (0.5MB and below only). Developmen
 ### What have we just released?
 The following is now available to 3rd party developers:
 
-- An example application code, available on [github](https://github.com/hmrc/ctc-traders-example-java-client). This example demonstrates how to generate authentication access tokens
+- An example application code, available on [github](https://github.com/hmrc/ctc-traders-example-java-client). This example demonstrates how to generate authentication access tokens.
 - The alpha endpoint has been released. To view it:
 
 1. Navigate to the [CTC Traders API specifications](/api-documentation/docs/api/service/common-transit-convention-traders/2.0).
