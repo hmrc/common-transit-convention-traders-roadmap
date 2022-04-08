@@ -11,6 +11,8 @@ Find out the latest information, milestones plus service updates.
 ### What this roadmap tells you
 This roadmap sets out our anticipated schedule for our current and future work in relation to API releases, for phase 5. We welcome feedback in regard to this work via [github](https://github.com/hmrc/common-transit-convention-traders/issues).
 
+Current development focuses on small messages (0.5MB and below only). Development for messages larger than 0.5MB will begin at a later date.
+
 ### What have we just released?
 The alpha endpoint has been released. To view it:
 
