@@ -18,10 +18,10 @@ The following is now available to 3rd party developers:
 
 - A beta version of the departure declaration API endpoint (IE015/CC015C), which allows developers to start a Phase 5 movement using a departure declaration.
 - An example application code, available on [github](https://github.com/hmrc/ctc-traders-example-java-client). This example demonstrates how to generate authentication access tokens.
-- The alpha endpoint has been released. To view it:
+- The new endpoint documentation has been released. To view it:
 
 1. Navigate to the [CTC Traders API specifications](/api-documentation/docs/api/service/common-transit-convention-traders/2.0).
-2. From the **Version and status** list, choose **v2.0 (Alpha)**.
+2. From the **Version and status** list, choose **v2.0 (Beta)**.
 3. Click **View**.
 
 ### What are we working on now?
