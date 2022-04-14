@@ -16,6 +16,7 @@ Current development focuses on small messages (0.5MB and below only). Developmen
 ### What have we just released?
 The following is now available to 3rd party developers:
 
+- A beta version of the departure declaration API endpoint (IE015/CC015C), which allows developers to start a Phase 5 movement using a departure declaration.
 - An example application code, available on [github](https://github.com/hmrc/ctc-traders-example-java-client). This example demonstrates how to generate authentication access tokens.
 - The alpha endpoint has been released. To view it:
 
@@ -24,10 +25,10 @@ The following is now available to 3rd party developers:
 3. Click **View**.
 
 ### What are we working on now?
-A beta version of the departure declaration API endpoint (IE015/CC015C), which will allow developers to start a Phase 5 movement using a departure declaration.
+Validation of departure declaration data payloads.
 
 ### What is coming next?
-Validation of departure declaration data payloads.
+Enabling the saving of departure declaration information. This allows developers to retrieve departure declaration metadata.
 
 ## Phase 4
 
