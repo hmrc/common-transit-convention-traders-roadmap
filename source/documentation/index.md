@@ -13,8 +13,21 @@ This roadmap sets out our anticipated schedule for our current and future work i
 
 Current development focuses on small messages (0.5MB and below only). Development for messages larger than 0.5MB will begin at a later date.
 
+For technical information, see the [CTC Traders API specifications](/api-documentation/docs/api/service/common-transit-convention-traders/2.0).
+
 ### What have we just released?
 The following is now available to 3rd party developers:
+
+- The [Submit Declaration Data endpoint](/api-documentation/docs/api/service/common-transit-convention-traders/2.0#Send%20a%20Declaration%20Data%20message) is limited to users with CTC EORI enrolment. 
+
+### What are we working on now?
+Validation of departure declaration data payloads.
+
+### What is coming next?
+Enabling the saving of departure declaration information. This allows developers to retrieve departure declaration metadata.
+
+### What have we already released?
+The following is available to 3rd party developers:
 
 - A beta version of the departure declaration API endpoint (IE015/CC015C), which allows developers to start a Phase 5 movement using a departure declaration.
 - An example application code, available on [github](https://github.com/hmrc/ctc-traders-example-java-client). This example demonstrates how to generate authentication access tokens and submit a simple declaration.
@@ -23,12 +36,6 @@ The following is now available to 3rd party developers:
 1. Navigate to the [CTC Traders API specifications](/api-documentation/docs/api/service/common-transit-convention-traders/2.0).
 2. From the **Version and status** list, choose **v2.0 (Beta)**.
 3. Click **View**.
-
-### What are we working on now?
-Validation of departure declaration data payloads.
-
-### What is coming next?
-Enabling the saving of departure declaration information. This allows developers to retrieve departure declaration metadata.
 
 ## Phase 4
 
