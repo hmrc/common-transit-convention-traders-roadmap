@@ -1,4 +1,4 @@
-# Technical Documentation - Common Transit Convention Traders Roadmap
+# Technical Documentation - CTC Traders roadmap
 
 ## Getting started
 

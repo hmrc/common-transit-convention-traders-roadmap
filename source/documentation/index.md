@@ -1,9 +1,9 @@
 ---
-title: Common Transit Convention Traders API roadmap
+title: CTC Traders API roadmap
 weight: 1
 description: Software developers, designers, product owners or business analysts - see how you can integrate your software with Common Transit Convention Traders API.
 ---
-# Common Transit Convention Traders API roadmap
+# CTC Traders API roadmap
 
 Find out the latest information, milestones plus service updates.
 
