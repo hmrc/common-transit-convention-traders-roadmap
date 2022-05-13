@@ -21,6 +21,8 @@ The following is now available to 3rd party developers:
 - An inital version of the [service guide](/guides/ctc-traders-phase5-service-guide/documentation/process-flows.html) process flows
 - The [Submit Declaration Data endpoint](/api-documentation/docs/api/service/common-transit-convention-traders/2.0#Send%20a%20Declaration%20Data%20message) is limited to users with CTC EORI enrolment. 
 
+In addition, movements are now available through the API for 31 days after the last movement update. Previously this was limited to 28 days.
+
 ### What are we working on now?
 Validation of departure declaration data payloads.
 
