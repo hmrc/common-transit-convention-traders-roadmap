@@ -18,7 +18,6 @@ For technical information, see the [CTC Traders API specifications](/api-documen
 ### What have we just released?
 The following is now available to 3rd party developers:
 
-- An inital version of the [service guide](/guides/ctc-traders-phase5-service-guide/documentation/process-flows.html) process flows
 - The [Submit Declaration Data endpoint](/api-documentation/docs/api/service/common-transit-convention-traders/2.0#Send%20a%20Declaration%20Data%20message) is limited to users with CTC EORI enrolment. 
 
 ### What are we working on now?
