@@ -9,7 +9,7 @@ Find out the latest information, milestones plus service updates.
 
 ## Phase 5
 ### What this roadmap tells you
-This roadmap sets out our anticipated schedule for our current and future work in relation to API releases, for phase 5. We welcome feedback in regard to this work via [github](https://github.com/hmrc/common-transit-convention-traders/issues).
+This part of the roadmap sets out our anticipated schedule for our current and future work in relation to API releases for phase 5. We welcome feedback in regard to this work via [github](https://github.com/hmrc/common-transit-convention-traders/issues).
 
 Current development focuses on small messages (0.5MB and below only). Development for messages larger than 0.5MB will begin at a later date.
 
@@ -18,7 +18,6 @@ For technical information, see the [CTC Traders API specifications](/api-documen
 ### What have we just released?
 The following is now available to 3rd party developers:
 
-- Movements are now available through the API for 31 days after the last movement update. Previously this was limited to 28 days.
 - The [Submit Declaration Data endpoint](/api-documentation/docs/api/service/common-transit-convention-traders/2.0#Send%20a%20Declaration%20Data%20message) is limited to users with CTC EORI enrolment. 
 
 ### What are we working on now?
@@ -40,6 +39,13 @@ The following is available to 3rd party developers:
 3. Click **View**.
 
 ## Phase 4
+### What this roadmap tells you
+This part of the roadmap describes updates and changes in relation to API releases for phase 4. We welcome feedback in regard to this work via [github](https://github.com/hmrc/common-transit-convention-traders/issues).
+
+### What have we just released?
+The following is now available to 3rd party developers:
+
+- Movements are now available through the API for 31 days after the last movement update. Previously this was limited to 28 days.
 
 **Important information**
 
