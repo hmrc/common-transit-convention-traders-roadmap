@@ -28,7 +28,7 @@ The following is available to 3rd party developers:
 
 - The [Submit Declaration Data endpoint](/api-documentation/docs/api/service/common-transit-convention-traders/2.0#Send%20a%20Declaration%20Data%20message) is limited to users with CTC EORI enrolment. 
 - The [service guide](/guides/ctc-traders-phase5-service-guide/).
-- A beta version of the departure declaration API endpoint (IE015/CC015C), which allows developers to start a Phase 5 movement using a departure declaration.
+- A beta version of the departure declaration API endpoint (IE015/CC015C), which allows developers to start a phase 5 movement using a departure declaration.
 - An example application code, available on [github](https://github.com/hmrc/ctc-traders-example-java-client). This example demonstrates how to generate authentication access tokens and submit a simple declaration.
 - The new endpoint documentation has been released. To view it:
 
