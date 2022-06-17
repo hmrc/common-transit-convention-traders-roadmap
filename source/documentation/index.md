@@ -21,6 +21,7 @@ The following is now available to 3rd party developers:
 - Validation of departure declaration data payloads.
 - Process flow diagrams in [NCTS Phase 5 Technical Interface Specification](/guides/ctc-traders-phase5-tis), which will be subject to continued review and iteration as information becomes available.
 
+
 ### What are we working on now?
 Enabling the saving of departure declaration information. This allows developers to retrieve departure declaration metadata.
 
