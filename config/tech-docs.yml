@@ -3,12 +3,12 @@ host: docs.developer.service.hmrc.gov.uk
 
 # Header-related options
 show_govuk_logo: true
-service_name: HMRC Developer Hub
-service_link: https://developer.service.hmrc.gov.uk/api-documentation
+service_name: CTC Traders API roadmap
+service_link: /roadmaps/common-transit-convention-traders-roadmap/
 
 # Links to show on right-hand-side of header
 header_links:
-  CTC Traders roadmap: /roadmaps/common-transit-convention-traders-roadmap/
+  HMRC Developer Hub: https://developer.service.hmrc.gov.uk/api-documentation
   Documentation: /api-documentation/docs/using-the-hub
   Applications: /developer/applications
   Support: /developer/support
