@@ -18,8 +18,12 @@ For technical information, see the [CTC Traders API specifications](/api-documen
 ### What have we just released?
 The following is now available to 3rd party developers:
 
-- Validation of departure declaration data payloads.
-- Process flow diagrams in [NCTS Phase 5 Technical Interface Specification](/guides/ctc-traders-phase5-tis), which will be subject to continued review and iteration as information becomes available.
+- The XML schemas are available for download [here](https://github.com/hmrc/transit-movements-validator/tree/main/conf/xsd). Links to individual XSD files are available from [NCTS Phase 5 Technical Interface Specification](/guides/ctc-traders-phase5-tis).
+
+    Currently, the IE015 message is the only one that can be tested, using the departure
+endpoint. Other messages will be supported later as the service develops. For this
+reason, these XSDs are issued with the proviso they may be subject to change and
+iterated in the future.
 
 
 ### What are we working on now?
@@ -28,15 +32,16 @@ Enabling the saving of departure declaration information. This allows developers
 ### What have we already released?
 The following is available to 3rd party developers:
 
+- Validation of departure declaration data payloads.
+- Process flow diagrams in [NCTS Phase 5 Technical Interface Specification](/guides/ctc-traders-phase5-tis), which will be subject to continued review and iteration as information becomes available.
 - The [Submit Declaration Data endpoint](/api-documentation/docs/api/service/common-transit-convention-traders/2.0#Send%20a%20Declaration%20Data%20message) is limited to users with CTC EORI enrolment. 
 - The [service guide](/guides/ctc-traders-phase5-service-guide/), which will be subject to continued review and iteration to reflect changes in the API. 
 - A beta version of the departure declaration API endpoint (IE015/CC015C), which allows developers to start a phase 5 movement using a departure declaration.
 - An example application code, available on [github](https://github.com/hmrc/ctc-traders-example-java-client). This example demonstrates how to generate authentication access tokens and submit a simple declaration.
 - The new endpoint documentation has been released. To view it:
-
-1. Navigate to the [CTC Traders API specifications](/api-documentation/docs/api/service/common-transit-convention-traders/2.0).
-2. From the **Version and status** list, choose **v2.0 (Beta)**.
-3. Click **View**.
+    1. Navigate to the [CTC Traders API specifications](/api-documentation/docs/api/service/common-transit-convention-traders/2.0).
+    2. From the **Version and status** list, choose **v2.0 (Beta)**.
+    3. Click **View**.
 
 ## Phase 4
 ### What this roadmap tells you
