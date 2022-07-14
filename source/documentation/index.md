@@ -78,6 +78,6 @@ If you have any questions or any issues with completing the move to the new XML 
 ### Related API documentation
 <!--- Section owner: MTD Programme --->
 
-  * [Service Guide](https://developer.service.hmrc.gov.uk/guides/common-transit-convention-traders-service-guide/)
-  * [CTC Traders API specifications](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0)
-  * [CTC Testing Guide](https://developer.service.hmrc.gov.uk/guides/common-transit-convention-traders-testing-guide)
+  * [Service Guide](https://developer.service.hmrc.gov.uk/guides/ctc-traders-phase5-service-guide/)
+  * [CTC Traders API specifications](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/2.0)
+  * [CTC Testing Guide](https://developer.service.hmrc.gov.uk/guides/ctc-traders-phase5-testing-guide)
