@@ -43,6 +43,12 @@ The following is available to 3rd party developers:
     2. From the **Version and status** list, choose **v2.0 (Beta)**.
     3. Click **View**.
 
+### Related phase 5 documentation
+
+  * [Service Guide](/guides/ctc-traders-phase5-service-guide)
+  * [CTC Traders API specifications](/api-documentation/docs/api/service/common-transit-convention-traders/2.0)
+  * [CTC Testing Guide](/guides/ctc-traders-phase5-testing-guide)
+
 ## Phase 4
 ### What this roadmap tells you
 This part of the roadmap describes updates and changes in relation to API releases for phase 4. We welcome feedback in regard to this work via [github](https://github.com/hmrc/common-transit-convention-traders/issues).
@@ -75,9 +81,9 @@ We have already contacted your customers to update them on the current position 
 
 If you have any questions or any issues with completing the move to the new XML channel, get in touch with your usual contact or email [SDSTeam@hmrc.gov.uk](mailto:SDSTeam@hmrc.gov.uk).
 
-### Related API documentation
+### Related phase 4 documentation
 <!--- Section owner: MTD Programme --->
 
-  * [Service Guide](https://developer.service.hmrc.gov.uk/guides/ctc-traders-phase5-service-guide/)
-  * [CTC Traders API specifications](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/2.0)
-  * [CTC Testing Guide](https://developer.service.hmrc.gov.uk/guides/ctc-traders-phase5-testing-guide)
+  * [Service Guide](/guides/ctc-traders-phase4-service-guide)
+  * [CTC Traders API specifications](/api-documentation/docs/api/service/common-transit-convention-traders/1.0)
+  * [CTC Testing Guide](/guides/ctc-traders-phase4-testing-guide)
