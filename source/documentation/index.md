@@ -45,10 +45,9 @@ The following is available to 3rd party developers:
 
 ### Related phase 5 documentation
 
-  * [Service Guide](/guides/ctc-traders-phase5-service-guide)
-  * [CTC Traders API specifications](/api-documentation/docs/api/service/common-transit-convention-traders/2.0)
-  * [CTC Testing Guide](/guides/ctc-traders-phase5-testing-guide)
-
+  * [CTC Traders API service guide](/guides/ctc-traders-phase5-service-guide)
+  * [CTC Traders API specification](/api-documentation/docs/api/service/common-transit-convention-traders/2.0)
+  
 ## Phase 4
 ### What this roadmap tells you
 This part of the roadmap describes updates and changes in relation to API releases for phase 4. We welcome feedback in regard to this work via [github](https://github.com/hmrc/common-transit-convention-traders/issues).
@@ -84,6 +83,6 @@ If you have any questions or any issues with completing the move to the new XML 
 ### Related phase 4 documentation
 <!--- Section owner: MTD Programme --->
 
-  * [Service Guide](/guides/ctc-traders-phase4-service-guide)
-  * [CTC Traders API specifications](/api-documentation/docs/api/service/common-transit-convention-traders/1.0)
-  * [CTC Testing Guide](/guides/ctc-traders-phase4-testing-guide)
+  * [CTC Traders API service guide](/guides/ctc-traders-phase4-service-guide)
+  * [CTC Traders API specification](/api-documentation/docs/api/service/common-transit-convention-traders/1.0)
+  * [CTC Traders API testing guide](/guides/ctc-traders-phase4-testing-guide)
