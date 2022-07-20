@@ -26,7 +26,7 @@ Currently, we are working on enabling the saving of departure declaration inform
 ### What have we already released?
 The following is available to 3rd party developers:
 
-- The XML schemas are available for download [here](https://github.com/hmrc/transit-movements-validator/tree/main/conf/xsd). Links to individual XSD files are available from [NCTS Phase 5 Technical Interface Specification](/guides/ctc-traders-phase5-tis). Currently, the IE015 message is the only one that can be tested, using the departure endpoint. Other messages will be supported later as the service develops. For this
+- The XML schemas are available for download [here](https://github.com/hmrc/transit-movements-validator/tree/main/conf/xsd). Links to individual XSD files are available from [NCTS Phase 5 Technical Interface Specification](/guides/ctc-traders-phase5-tis). Currently, the IE015 message is the only one that can be tested, using the [Send declaration data message endpoint] (/api-documentation/docs/api/service/common-transit-convention-traders/2.0#Send%20a%20Decla[…]20Data%20message). Other messages will be supported later as the service develops. For this
 reason, these XSDs are issued with the proviso they may be subject to change and iterated in the future.
 - Validation of departure declaration data payloads.
 - Process flow diagrams in [NCTS Phase 5 Technical Interface Specification](/guides/ctc-traders-phase5-tis), which will be subject to continued review and iteration as information becomes available.
