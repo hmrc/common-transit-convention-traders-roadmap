@@ -18,7 +18,7 @@ For technical information, see the [CTC Traders API specifications](/api-documen
 ### What have we just released?
 The following is now available to 3rd party developers:
 
-The declaration departure endpoint now accepts messages in JSON format as well as XML format. The JSON schema are available [here](https://github.com/hmrc/transit-movements-validator/tree/main/conf/json).
+The declaration departure endpoint now accepts messages in JSON format as well as XML format. The JSON schema are available for download [here](https://github.com/hmrc/transit-movements-validator/tree/main/conf/json).
 
 ### What are we working on now?
 Currently, we are working on enabling the saving of departure declaration information. This allows developers to retrieve departure declaration metadata.
