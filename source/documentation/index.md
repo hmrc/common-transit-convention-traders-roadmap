@@ -21,7 +21,7 @@ The following is now available to 3rd party developers:
 The declaration departure endpoint now accepts messages in JSON format as well as XML format. The JSON schema are available [here](https://github.com/hmrc/transit-movements-validator/tree/main/conf/json).
 
 ### What are we working on now?
-Currently, we are working on enabling the saving of departure declaration information. This allows developers to retrieve departure declaration metadata.
+Currently, we are working on retrieving messages.
 
 ### What have we already released?
 The following is available to 3rd party developers:
