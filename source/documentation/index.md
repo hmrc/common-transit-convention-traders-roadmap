@@ -18,7 +18,8 @@ For technical information, see the [CTC Traders API specifications](/api-documen
 ### What have we just released?
 The following is now available to 3rd party developers:
 
-The declaration departure endpoint now accepts messages in JSON format as well as XML format. The JSON schemas are available for download [here](https://github.com/hmrc/transit-movements-validator/tree/main/conf/json).
+- The declaration departure endpoint now accepts messages in JSON format as well as XML format. The JSON schemas are available for download [here](https://github.com/hmrc/transit-movements-validator/tree/main/conf/json).
+- The NCTS Phase 5 Technical Interface Specification has been updated to describe the hierarchy of data groups and date items for each message type together with links to rules, conditions, and downloadable code lists. For further information, see [Message details](/guides/ctc-traders-phase5-tis/documentation/messagetypes.html#message-details).
 
 ### What are we working on now?
 Currently, we are working on retrieving departure metadata and associated messages.
