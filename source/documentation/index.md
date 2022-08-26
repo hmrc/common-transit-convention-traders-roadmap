@@ -18,7 +18,6 @@ For technical information, see the [CTC Traders API specifications](/api-documen
 ### What have we just released?
 The following is now available to 3rd party developers:
 
-- The [Application for Production Credentials Checklist](/guides/ctc-traders-phase4-testing-guide/figures/CTC_Traders_API_Application_for_Productions_Credentials_v0.1_Aug22.docx) of the CTC Traders API has been revised and updated.
 - The new [Get a message relating to a Movement Departure and message ID](/api-documentation/docs/api/service/common-transit-convention-traders/2.0#Get a message relating to a Movement Departure and message ID) endpoint returns full details about a single departure message, including declaration rejected or Movement Reference Number (MRN) allocated messages.
 - The new [Get all messages relating to a Movement Departure](/api-documentation/docs/api/service/common-transit-convention-traders/2.0#Get all messages relating to a Movement Departure) endpoint returns all messages IDs associated with a departure. You can also use the `receivedSince` query parameter to return only message IDs received after a specified date and time. Message bodies and metadata are not returned by this endpoint.
 - The new [Get a Movement Departure for a departure ID](/api-documentation/docs/api/service/common-transit-convention-traders/2.0#Get a Movement Departure for a departure ID) endpoint returns metadata about a departure movement within 31 days of the goods being released at their final destination.
