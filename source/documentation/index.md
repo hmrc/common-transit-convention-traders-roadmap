@@ -28,11 +28,7 @@ The following is now available to 3rd party developers:
 **Please note**: Movements older than 31 days are archived and thus cannot be returned by any endpoints.
 
 ### What are we working on now?
-
-Currently, we are doing the following:
-
-- Continuing work on retrieving departure metadata and associated messages.
-- Starting work on trader-bound messages.
+Currently, we are developing a Test Support API to enable self-service generation of test response messages.
 
 ### What have we already released?
 The following is available to 3rd party developers:
