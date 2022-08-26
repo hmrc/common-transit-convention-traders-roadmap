@@ -29,10 +29,7 @@ The following is now available to 3rd party developers:
 
 ### What are we working on now?
 
-Currently, we are doing the following:
-
-- Continuing work on retrieving departure metadata and associated messages.
-- Starting work on trader-bound messages.
+Currently, we are developing a Test Support API to enable self-service generation of test response messages.
 
 ### What have we already released?
 The following is available to 3rd party developers:
