@@ -61,7 +61,7 @@ This part of the roadmap describes updates and changes in relation to API releas
 ### What have we just released?
 The following is now available to 3rd party developers:
 
-- Movements are now available through the API for 31 days after the last movement update. Previously this was limited to 28 days.
+- The [Application for Production Credentials Checklist](/guides/ctc-traders-phase4-testing-guide/figures/CTC_Traders_API_Application_for_Productions_Credentials_v0.1_Aug22.docx) of the CTC Traders API has been revised and updated.
 
 **Important information**
 
