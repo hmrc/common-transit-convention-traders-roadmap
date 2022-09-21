@@ -18,36 +18,74 @@ For technical information, see the [CTC Traders API specifications](/api-documen
 ### What have we just released?
 The following is now available to 3rd party developers:
 
-- [CTC Traders Test Support API v2.0 has been released.](/api-documentation/docs/api/service/common-transit-convention-traders-test-support/2.0) It enables self-service generation of test response messages and supports phase 5. If you already have a departure movement ID, the [Inject a fake NCTS Departure Message](/api-documentation/docs/api/service/common-transit-convention-traders-test-support/2.0#Inject%20a%20fake%20NCTS%20Departure%20Message) endpoint retrieves the departure and returns a positive acknowledgement message (HTTP status code 201).
+#### CTC Traders API
+
+The existing GET endpoints now return more data - depending on the context, the information returned includes the following:
+
+- short departure ID
+
+- updated date
+
+- created timestamp
+
+- latest message type and description
+
+- enrolment EORI
+
+- movement EORI
+
+- Movement Reference Number (MRN)
+
+#### CTC Traders Test Support API
+
+[v2.0](/api-documentation/docs/api/service/common-transit-convention-traders-test-support/2.0) of the API has been released:
+
+- it enables self-service generation of test response messages and supports phase 5
+
+- if you already have a departure movement ID, you can use the [Inject a fake NCTS Departure Message](/api-documentation/docs/api/service/common-transit-convention-traders-test-support/2.0#Inject%20a%20fake%20NCTS%20Departure%20Message) endpoint to inject:
+
+  - a ‘Positive Acknowledge’ E_POS_ACK (IE928) message to simulate receipt of a positive acknowledgement of a departure declaration message (HTTP staus code 201)
+  - an ‘MRN Allocated’ E_MRN_ALL (IE028) message to simulate receipt of a Movement Reference Number (HTTP staus code 201)
 
 **Please note:**  [CTC Traders Test Support API v1.0](/api-documentation/docs/api/common-transit-convention-traders-test-support/1.0) is deprecated.
 
 ### What are we working on now?
-Currently, we are:
+Currently, we are working on the following:
 
-- Adding more functionality to CTC Traders Test Support API v2.0
-- Optimising the data returned by the existing endpoints of the CTC Traders API
+#### CTC Traders API
+
+Changes will include:
+
+- acceptance of new arrival notifications and saving them in the NCTS database
+- acceptance of all inbound message types for departures
+- updating the [NCTS Phase 5 Technical Interface Specification](/guides/ctc-traders-phase5-tis) to align with the latest version of the NCTS Phase 5 Design Document for National Transit Application (DDNTA)
 
 ### What have we already released?
 The following is available to 3rd party developers:
 
-- The XML schemas are available for download [here](https://github.com/hmrc/transit-movements-validator/tree/main/conf/xsd). Links to individual XSD files are available from the [NCTS Phase 5 Technical Interface Specification](/guides/ctc-traders-phase5-tis). Currently, the IE015 message is the only one that can be tested, using the [Send declaration data message endpoint](/api-documentation/docs/api/service/common-transit-convention-traders/2.0#Send%20a%20Decla[…]20Data%20message). Other messages will be supported later as the service develops. For this reason, these XSDs may be subject to change and iterated in the future.
-- Validation of departure declaration data payloads.
-- Process flow diagrams in the [NCTS Phase 5 Technical Interface Specification](/guides/ctc-traders-phase5-tis), which will be subject to continued review and iteration as information becomes available.
-- The [Submit Declaration Data endpoint](/api-documentation/docs/api/service/common-transit-convention-traders/2.0#Send%20a%20Declaration%20Data%20message), which is limited to users with CTC EORI enrolment. 
-- The [service guide](/guides/ctc-traders-phase5-service-guide/), which will be subject to continued review and iteration to reflect changes in the API. 
-- A beta version of the departure declaration API endpoint (IE015/CC015C), which allows developers to start a phase 5 movement using a departure declaration.
-- Code to build an example application is available on [GitHub](https://github.com/hmrc/ctc-traders-example-java-client). This example application demonstrates how to generate authentication access tokens and submit a simple declaration.
-- The declaration departure endpoint now accepts messages in JSON format as well as XML format. The JSON schemas are available for download [here](https://github.com/hmrc/transit-movements-validator/tree/main/conf/json).
-- The NCTS Phase 5 Technical Interface Specification has been updated to describe the hierarchy of data groups and data items for each message type together with links to rules, conditions, and downloadable code lists. For further information, see [Message details](/guides/ctc-traders-phase5-tis/documentation/messagetypes.html#message-details).
-- New endpoints for retrieving departure metadata and messages:
+#### CTC Traders API
+
+- the XML schemas are available for download [here](https://github.com/hmrc/transit-movements-validator/tree/main/conf/xsd):
+    - links to individual XSD files are available from the [NCTS Phase 5 Technical Interface Specification](/guides/ctc-traders-phase5-tis)
+    - currently, the IE015 message is the only one that can be tested by using the [Send declaration data message endpoint](/api-documentation/docs/api/service/common-transit-convention-traders/2.0#Send%20a%20Decla[…]20Data%20message)
+    - other messages will be supported later as the service develops - for this reason, these XSDs may be subject to change and iterated in the future
+
+- validation of departure declaration data payloads
+- process flow diagrams in the [NCTS Phase 5 Technical Interface Specification](/guides/ctc-traders-phase5-tis), which will be subject to continued review and iteration as information becomes available
+- the [Submit Declaration Data endpoint](/api-documentation/docs/api/service/common-transit-convention-traders/2.0#Send%20a%20Declaration%20Data%20message), which is limited to users with CTC EORI enrolment
+- the [service guide](/guides/ctc-traders-phase5-service-guide/), which will be subject to continued review and iteration to reflect changes in the API
+- a beta version of the departure declaration API endpoint (IE015/CC015C), which allows developers to start a phase 5 movement using a departure declaration
+- code to build an example application is available on [GitHub](https://github.com/hmrc/ctc-traders-example-java-client) - this example application demonstrates how to generate authentication access tokens and submit a simple declaration
+- the declaration departure endpoint now accepts messages in JSON format as well as XML format - the JSON schemas are available for download [here](https://github.com/hmrc/transit-movements-validator/tree/main/conf/json)
+- the NCTS Phase 5 Technical Interface Specification has been updated to describe the hierarchy of data groups and data items for each message type together with links to rules, conditions, and downloadable code lists - for further information, see [Message details](/guides/ctc-traders-phase5-tis/documentation/messagetypes.html#message-details)
+- new endpoints for retrieving departure metadata and messages:
     - [Get a message relating to a Movement Departure and message ID](/api-documentation/docs/api/service/common-transit-convention-traders/2.0#Get a message relating to a Movement Departure and message ID)
     - [Get all messages relating to a Movement Departure](/api-documentation/docs/api/service/common-transit-convention-traders/2.0#Get all messages relating to a Movement Departure)
     - [Get a Movement Departure for a departure ID](/api-documentation/docs/api/service/common-transit-convention-traders/2.0#Get a Movement Departure for a departure ID)
 
-- The [Get all Movement Departures](/api-documentation/docs/api/service/common-transit-convention-traders/2.0#Get all Movement Departures) endpoint now returns departure movements by EORI number.
-- The format of the response JSON for the [Send a Declaration Data message](/api-documentation/docs/api/service/common-transit-convention-traders/2.0#Send a Declaration Data message) endpoint has been updated.
-- The new endpoint documentation has been released. To view it:
+- the [Get all Movement Departures](/api-documentation/docs/api/service/common-transit-convention-traders/2.0#Get all Movement Departures) endpoint now returns departure movements by EORI number
+- the format of the response JSON for the [Send a Declaration Data message](/api-documentation/docs/api/service/common-transit-convention-traders/2.0#Send a Declaration Data message) endpoint has been updated
+- new endpoint documentation has been released - to view it:
     1. Navigate to the [CTC Traders API specifications](/api-documentation/docs/api/service/common-transit-convention-traders/2.0).
     2. From the **Version and status** list, choose **v2.0 (Beta)**.
     3. Click **View**.
@@ -64,7 +102,7 @@ This part of the roadmap describes updates and changes in relation to API releas
 ### What have we just released?
 The following is now available to 3rd party developers:
 
-- The [Application for Production Credentials Checklist](/guides/ctc-traders-phase4-testing-guide/figures/CTC_Traders_API_Application_for_Productions_Credentials_v0.1_Aug22.docx) of the CTC Traders API has been revised and updated.
+- the [Application for Production Credentials Checklist](/guides/ctc-traders-phase4-testing-guide/figures/CTC_Traders_API_Application_for_Productions_Credentials_v0.1_Aug22.docx) of the CTC Traders API has been revised and updated
 
 **Important information**
 
@@ -78,8 +116,8 @@ It will not be possible for HMRC to continue to support this legacy channel, so 
 
 **Please note**:
 
- - The NCTS legacy XML channel no longer accepts any new declarations.
- - We have changed our previously published intention to close the e-mail channel on 28 February 2022.  This will now take place on 31 May 2022.
+ - the NCTS legacy XML channel no longer accepts any new declarations
+ - we have changed our previously published intention to close the e-mail channel on 28 February 2022 - this will now take place on 31 May 2022
 
 If you have any customers using the Common Transit Convention (CTC), you should have completed the work needed to enable them to continue to make declarations using the new CTC XML API. 
 
