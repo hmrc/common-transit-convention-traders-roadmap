@@ -47,7 +47,7 @@ The existing GET endpoints now return more data - depending on the context, the 
   - a ‘Positive Acknowledge’ E_POS_ACK (IE928) message to simulate receipt of a positive acknowledgement of a departure declaration message (HTTP staus code 201)
   - an ‘MRN Allocated’ E_MRN_ALL (IE028) message to simulate receipt of a Movement Reference Number (HTTP staus code 201)
 
-**Please note:**  [CTC Traders Test Support API v1.0](/api-documentation/docs/api/common-transit-convention-traders-test-support/1.0) is deprecated.
+**Please note:**  CTC Traders Test Support API v1.0 has been retired and is no longer available.
 
 ### What are we working on now?
 Currently, we are working on the following.
