@@ -16,13 +16,13 @@ Current development focuses on small messages (500KB and below only). Developmen
 For technical information, see the [CTC Traders API specifications](/api-documentation/docs/api/service/common-transit-convention-traders/2.0).
 
 ### What have we just released?
-The following is now available to 3rd party developers:
+The following is now available to 3rd party developers.
 
 #### CTC Traders API
 
 The existing GET endpoints now return more data - depending on the context, the information returned includes the following:
 
-- short departure ID
+- departure ID
 
 - updated date
 
@@ -50,7 +50,7 @@ The existing GET endpoints now return more data - depending on the context, the 
 **Please note:**  [CTC Traders Test Support API v1.0](/api-documentation/docs/api/common-transit-convention-traders-test-support/1.0) is deprecated.
 
 ### What are we working on now?
-Currently, we are working on the following:
+Currently, we are working on the following.
 
 #### CTC Traders API
 
@@ -61,7 +61,7 @@ Changes will include:
 - updating the [NCTS Phase 5 Technical Interface Specification](/guides/ctc-traders-phase5-tis) to align with the latest version of the NCTS Phase 5 Design Document for National Transit Application (DDNTA)
 
 ### What have we already released?
-The following is available to 3rd party developers:
+The following is available to 3rd party developers.
 
 #### CTC Traders API
 
