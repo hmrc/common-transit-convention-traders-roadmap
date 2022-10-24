@@ -13,7 +13,7 @@ This part of the roadmap sets out our anticipated schedule for our current and f
 
 Current development focuses on small messages (500KB and below only). Development for messages larger than 500KB will begin at a later date.
 
-For technical information, see the [CTC Traders API v2.0 documentation](/api-documentation/docs/api/service/common-transit-convention-traders/2.0).
+For technical information, see [CTC Traders API v2.0 documentation](/api-documentation/docs/api/service/common-transit-convention-traders/2.0).
 
 ### What have we just released?
 The following is now available to 3rd party developers.
@@ -22,16 +22,19 @@ The following is now available to 3rd party developers.
 
 ##### New features:
 
-- any XML messages that you send to the CTC Traders API are now validated, stored, and attached to your movement, so you can update the status of the movement:
-
+- you can use the new [Send an arrival notification message](/api-documentation/docs/api/service/common-transit-convention-traders/2.0#Send%20an%20arrival%20notification%20message) endpoint to send an 'Arrival Notification' E_ARR_NOT (IE007) XML message to notify a customs office of destination that a movement has arrived:
   - a successful response is an HTTP status code 202
-  - if an XML message is invalid, an HTTP status code 400 is returned
-  - if the supplied departure ID (in the URI) is invalid, an HTTP status code 404 is returned
 
+  - if an XML message is invalid, an HTTP status code 400 is returned
+
+- any JSON messages that you send to the API are now validated, stored, converted to XML, and attached to your movement, so you can update the status of the movement:
+  - a successful response is an HTTP status code 202
+  - if a JSON message is invalid, an HTTP status code 400 is returned
+  - if the supplied departure ID (in the URI) is invalid, an HTTP status code 404 is returned
 
 ##### Documentation changes:
 
-- the [NCTS phase 5 Technical Interface Specification](/guides/ctc-traders-phase5-tis) has been updated to align with the latest version of the NCTS phase 5 Design Document for National Transit Application (DDNTA)
+- the [NCTS phase 5 Technical Interface Specification](/guides/ctc-traders-phase5-tis) has been further updated to align with the latest NCTS phase 5 documentation
 
 ### What are we working on now?
 Currently, we are working on the following.
@@ -40,8 +43,9 @@ Currently, we are working on the following.
 
 Changes will include:
 
-- acceptance of inbound JSON message for departures
-- acceptance of new arrival notifications and saving them in the NCTS database
+- integration of departure notifications with the HMRC [Push Pull Notifications API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/push-pull-notifications-api/1.0)
+
+- acceptance and saving of new arrival notifications
 
 ### What have we already released?
 The following is available to 3rd party developers.
@@ -67,27 +71,22 @@ The following is available to 3rd party developers.
 - the [Get all cached movement departures](/api-documentation/docs/api/service/common-transit-convention-traders/2.0#Get all Movement Departures) endpoint now returns departure movements by EORI number
 - the format of the response JSON for the [Send a declaration data message](/api-documentation/docs/api/service/common-transit-convention-traders/2.0#Send%20a%20declaration%20data%20message) endpoint has been updated
 - the existing GET endpoints now return more data - depending on the context, the information returned includes the following:
-  
+
     - departure ID
-    
     - updated date
-    
     - created timestamp
-    
     - latest message type and description
-    
     - enrolment EORI
-    
     - movement EORI
-    
     - Movement Reference Number (MRN)
+- any XML messages that you send to the API are now validated, stored, and attached to your movement, so you can update the status of the movement:
+    - a successful response is an HTTP status code 202
+    - if an XML message is invalid, an HTTP status code 400 is returned
+    - if the supplied departure ID (in the URI) is invalid, an HTTP status code 404 is returned
 
 #### CTC Traders Test Support API v2.0
 
-Key facts:
-
 - API enables self-service generation of test response messages and supports phase 5
-
 - if you already have a departure movement ID, you can use the [Inject a fake NCTS departure message](/api-documentation/docs/api/service/common-transit-convention-traders-test-support/2.0#Inject%20a%20fake%20NCTS%20departure%20message) endpoint to inject:
 
   - a ‘Positive Acknowledge’ E_POS_ACK (IE928) message to simulate receipt of a positive acknowledgement of a departure declaration message (HTTP staus code 201)
@@ -95,8 +94,8 @@ Key facts:
 
 ### Related phase 5 documentation
 
-  * [CTC Traders API v2.0 documentation](/api-documentation/docs/api/service/common-transit-convention-traders/2.0)
-  * [CTC Traders API service guide](/guides/ctc-traders-phase5-service-guide)
+- [CTC Traders API v2.0 documentation](/api-documentation/docs/api/service/common-transit-convention-traders/2.0)
+- [CTC Traders API service guide](/guides/ctc-traders-phase5-service-guide)
 
 ## Phase 4
 ### What this roadmap tells you
@@ -133,6 +132,6 @@ If you have any questions or any issues with completing the move to the new XML 
 ### Related phase 4 documentation
 <!--- Section owner: MTD Programme --->
 
-  * [CTC Traders API v1.0 documentation](/api-documentation/docs/api/service/common-transit-convention-traders/1.0)
-  * [CTC Traders API service guide](/guides/ctc-traders-phase4-service-guide)
-  * [CTC Traders API testing guide](/guides/ctc-traders-phase4-testing-guide)
+- [CTC Traders API v1.0 documentation](/api-documentation/docs/api/service/common-transit-convention-traders/1.0)
+- [CTC Traders API service guide](/guides/ctc-traders-phase4-service-guide)
+- [CTC Traders API testing guide](/guides/ctc-traders-phase4-testing-guide)
