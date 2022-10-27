@@ -20,21 +20,13 @@ The following is now available to 3rd party developers.
 
 #### CTC Traders API v2.0
 
-##### New features:
+##### New feature:
 
-- you can use the new [Send an arrival notification message](/api-documentation/docs/api/service/common-transit-convention-traders/2.0#Send%20an%20arrival%20notification%20message) endpoint to send an 'Arrival Notification' E_ARR_NOT (IE007) XML message to notify a customs office of destination that a movement has arrived:
+- you can now use the new [Send an arrival notification message](/api-documentation/docs/api/service/common-transit-convention-traders/2.0#Send%20an%20arrival%20notification%20message) endpoint to send an 'Arrival Notification' E_ARR_NOT (IE007) JSON message to notify a customs office of destination that a movement has arrived:
+
   - a successful response is an HTTP status code 202
 
-  - if an XML message is invalid, an HTTP status code 400 is returned
-
-- any JSON messages that you send to the API are now validated, stored, converted to XML, and attached to your movement, so you can update the status of the movement:
-  - a successful response is an HTTP status code 202
   - if a JSON message is invalid, an HTTP status code 400 is returned
-  - if the supplied departure ID (in the URI) is invalid, an HTTP status code 404 is returned
-
-##### Documentation changes:
-
-- the [NCTS phase 5 Technical Interface Specification](/guides/ctc-traders-phase5-tis) has been further updated to align with the latest NCTS phase 5 documentation
 
 ### What are we working on now?
 Currently, we are working on the following.
@@ -43,9 +35,7 @@ Currently, we are working on the following.
 
 Changes will include:
 
-- integration of departure notifications with the HMRC [Push Pull Notifications API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/push-pull-notifications-api/1.0)
-
-- acceptance and saving of new arrival notifications
+- integration of departure notifications with the HMRC [Push Pull Notifications API](/api-documentation/docs/api/service/push-pull-notifications-api/1.0)
 
 ### What have we already released?
 The following is available to 3rd party developers.
@@ -83,6 +73,14 @@ The following is available to 3rd party developers.
     - a successful response is an HTTP status code 202
     - if an XML message is invalid, an HTTP status code 400 is returned
     - if the supplied departure ID (in the URI) is invalid, an HTTP status code 404 is returned
+- any JSON messages that you send to the API are now validated, stored, converted to XML, and attached to your movement, so you can update the status of the movement:
+    - a successful response is an HTTP status code 202
+    - if a JSON message is invalid, an HTTP status code 400 is returned
+    - if the supplied departure ID (in the URI) is invalid, an HTTP status code 404 is returned
+- you can use the new [Send an arrival notification message](/api-documentation/docs/api/service/common-transit-convention-traders/2.0#Send%20an%20arrival%20notification%20message) endpoint to send an 'Arrival Notification' E_ARR_NOT (IE007) XML message to notify a customs office of destination that a movement has arrived:
+    - a successful response is an HTTP status code 202
+
+    - if an XML message is invalid, an HTTP status code 400 is returned
 
 #### CTC Traders Test Support API v2.0
 
