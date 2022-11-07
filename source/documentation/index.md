@@ -20,22 +20,23 @@ The following is now available to 3rd party developers.
 
 #### CTC Traders API v2.0
 
-##### New feature:
+##### New features:
 
-- you can now use the new [Send an arrival notification message](/api-documentation/docs/api/service/common-transit-convention-traders/2.0#Send%20an%20arrival%20notification%20message) endpoint to send an 'Arrival Notification' E_ARR_NOT (IE007) JSON message to notify a customs office of destination that a movement has arrived:
-
-  - a successful response is an HTTP status code 202
-
-  - if a JSON message is invalid, an HTTP status code 400 is returned
+- the [Get a cached message related to a departure and message ID](/api-documentation/docs/api/service/common-transit-convention-traders/2.0#Get a cached message related to a departure and message ID) endpoint can now format bodies of successful responses as follows:
+  - if the `Accept` header of a valid request message is `application/vnd.hmrc.2.0+json`, the body field that contains the message with the corresponding ID sent in the request will be returned in JSON format
+  - if the `Accept` header of a valid request message is `application/vnd.hmrc.2.0+json-xml`, the body field that contains the message with the corresponding ID sent in the request will be returned in XML format
+  - if the `Accept` header of a request message is set to any other value, an HTTP status code 406 (Not Acceptable) is returned
+  - the JSON schema used to validate messages are available on [GitHub](https://github.com/hmrc/transit-movements-validator/tree/main/conf/json)
 
 ### What are we working on now?
 Currently, we are working on the following.
 
 #### CTC Traders API v2.0
 
-Changes will include:
+Changes will include allowing traders to retrieve:
 
-- integration of departure notifications with the HMRC [Push Pull Notifications API](/api-documentation/docs/api/service/push-pull-notifications-api/1.0)
+- metadata about their arrival movements and associated messages
+- the contents of associated messages
 
 ### What have we already released?
 The following is available to 3rd party developers.
@@ -79,16 +80,20 @@ The following is available to 3rd party developers.
     - if the supplied departure ID (in the URI) is invalid, an HTTP status code 404 is returned
 - you can use the new [Send an arrival notification message](/api-documentation/docs/api/service/common-transit-convention-traders/2.0#Send%20an%20arrival%20notification%20message) endpoint to send an 'Arrival Notification' E_ARR_NOT (IE007) XML message to notify a customs office of destination that a movement has arrived:
     - a successful response is an HTTP status code 202
-
     - if an XML message is invalid, an HTTP status code 400 is returned
+- you can now use the new [Send an arrival notification message](/api-documentation/docs/api/service/common-transit-convention-traders/2.0#Send%20an%20arrival%20notification%20message) endpoint to send an 'Arrival Notification' E_ARR_NOT (IE007) JSON message to notify a customs office of destination that a movement has arrived:
+  
+    - a successful response is an HTTP status code 202
+    
+    - if a JSON message is invalid, an HTTP status code 400 is returned
 
 #### CTC Traders Test Support API v2.0
 
 - API enables self-service generation of test response messages and supports phase 5
 - if you already have a departure movement ID, you can use the [Inject a fake NCTS departure message](/api-documentation/docs/api/service/common-transit-convention-traders-test-support/2.0#Inject%20a%20fake%20NCTS%20departure%20message) endpoint to inject:
 
-  - a ‘Positive Acknowledge’ E_POS_ACK (IE928) message to simulate receipt of a positive acknowledgement of a departure declaration message (HTTP staus code 201)
-  - an ‘MRN Allocated’ E_MRN_ALL (IE028) message to simulate receipt of a Movement Reference Number (HTTP staus code 201)
+  - a ‘Positive Acknowledge’ E_POS_ACK (IE928) message to simulate receipt of a positive acknowledgement of a departure declaration message (HTTP status code 201)
+  - an ‘MRN Allocated’ E_MRN_ALL (IE028) message to simulate receipt of a Movement Reference Number (HTTP status code 201)
 
 ### Related phase 5 documentation
 
