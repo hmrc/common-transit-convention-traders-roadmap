@@ -7,11 +7,11 @@ description: Software developers, designers, product owners or business analysts
 
 Find out the latest information, milestones plus service updates.
 
+*Last updated: 20 December 2022*
+
 ## Phase 5
 ### What this roadmap tells you
 This part of the roadmap sets out our anticipated schedule for our current and future work in relation to API releases for phase 5. If you want to provide feedback, please use [GitHub](https://github.com/hmrc/common-transit-convention-traders/issues).
-
-Current development focuses on small messages (500KB and below only). Development for messages larger than 500KB will begin at a later date.
 
 For technical information, see [CTC Traders API v2.0 documentation](/api-documentation/docs/api/service/common-transit-convention-traders/2.0).
 
@@ -21,18 +21,13 @@ To learn about about what we have released, view our changelogs on GitHub:
 - [CTC Traders API v2.0 changelog](https://github.com/hmrc/common-transit-convention-traders/wiki/CTC-Traders-API-v2.0-changelog)
 - [CTC Traders Test Support API v2.0 changelog](https://github.com/hmrc/common-transit-convention-traders-test-support/wiki/CTC-Traders-Test-Support-API-v2.0-changelog)
 
+**Please note**: Development of small messages functionality in CTC Traders API v2.0 is ready for testing. This version of the API will not be ready for use in production until phase 5 of the New Computerised Transit System (NCTS) goes live in November 2023.
+
 ### What are we working on now?
+Currently, we are making the following changes to CTC Traders API v2.0:
 
-Currently, we are working on the following:
-
-- **CTC Traders API v2.0** - changes will include further enhancements for getting:
-
-  - metadata about their arrival movements and associated messages
-
-  - the contents of associated messages
-
-
-- **CTC Traders Test Support API v2.0** - changes will include adding more supported message types that can be injected.
+- adding a push notifications capability to ensure that you receive arrival and departure notifications as soon as they are sent by the NCTS
+- starting initial development work on support for large messages
 
 ### Related documentation
 
@@ -50,8 +45,7 @@ The following is now available to 3rd party developers:
 - the [Application for Production Credentials Checklist](/guides/ctc-traders-phase4-testing-guide/figures/CTC_Traders_API_Application_for_Productions_Credentials_v0.1_Aug22.docx) of the CTC Traders API v1.0 has been revised and updated
 
 **Important information**
-
-The closure of the legacy New Computerised Transit System (NCTS) XML channel started on 28 February 2022 and was completed on 13 March 2022.
+The closure of the legacy New NCTS XML channel started on 28 February 2022 and was completed on 13 March 2022.
 
 To support developers who are still migrating clients, declarations made into the legacy XML channel continued to be accepted whilst the closure process was in progress. 
 
