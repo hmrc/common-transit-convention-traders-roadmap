@@ -7,7 +7,7 @@ description: Software developers, designers, product owners or business analysts
 
 Find out the latest information, milestones plus service updates.
 
-*Last updated: 20 December 2022*
+*Last updated: 10 February 2023*
 
 ## Phase 5
 ### What this roadmap tells you
@@ -24,10 +24,7 @@ To learn about about what we have released, view our changelogs on GitHub:
 **Please note**: Development of small messages functionality in CTC Traders API v2.0 is ready for testing. This version of the API will not be ready for use in production until phase 5 of the New Computerised Transit System (NCTS) goes live in November 2023.
 
 ### What are we working on now?
-Currently, we are making the following changes to CTC Traders API v2.0:
-
-- adding a push notifications capability to ensure that you receive arrival and departure notifications as soon as they are sent by the NCTS
-- starting initial development work on support for large messages
+Currently, we are working on sending and saving large departure messages.
 
 ### Related documentation
 
