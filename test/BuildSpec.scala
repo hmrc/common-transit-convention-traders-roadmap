@@ -20,6 +20,8 @@ import sys.process._
 import org.scalatest.matchers.should.Matchers
 import org.scalatest.wordspec.AnyWordSpec
 
+import scala.language.postfixOps
+
 class BuildSpec extends AnyWordSpec with Matchers {
   "Building the content" should {
     "produce static files" in {
