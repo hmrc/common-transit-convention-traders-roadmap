@@ -13,6 +13,6 @@ gem 'govuk_tech_docs'
 
 # Overrride middleman-search with our fork.
 # See: https://github.com/manastech/middleman-search/pull/24
-gem 'middleman-search', git: 'https://github.com/alphagov/middleman-search'
+#gem 'middleman-search', git: 'https://github.com/alphagov/middleman-search'
 
 gem 'thin', '~> 1.7.0'
