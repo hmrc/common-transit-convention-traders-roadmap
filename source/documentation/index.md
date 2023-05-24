@@ -7,7 +7,7 @@ description: Software developers, designers, product owners or business analysts
 
 Find out the latest information, milestones plus service updates.
 
-*Last updated: 10 February 2023*
+*Last updated: 24 May 2023*
 
 ## Phase 5
 ### What this roadmap tells you
@@ -30,6 +30,7 @@ Currently, we are working on sending and saving large departure messages.
 
 - [CTC Traders API v2.0 documentation](/api-documentation/docs/api/service/common-transit-convention-traders/2.0)
 - [CTC Traders API phase 5 service guide](/guides/ctc-traders-phase5-service-guide) | [Changelog](https://github.com/hmrc/ctc-traders-phase5-service-guide/wiki/CTC-Traders-API-phase-5-service-guide-changelog)
+- [CTC Traders API phase 5 testing guide](/guides/ctc-traders-phase5-testing-guide/) | [Changelog](https://github.com/hmrc/ctc-traders-phase5-testing-guide/wiki/CTC-Traders-API-phase-5-testing-guide-changelog)
 - [NCTS Phase 5 Technical Interface Specification (TIS)](https://developer.service.hmrc.gov.uk/guides/ctc-traders-phase5-tis/) | [Changelog](https://github.com/hmrc/ctc-traders-phase5-tis/wiki/NCTS-Phase-5-Technical-Interface-Specification-(TIS)-changelog)
 
 ## Phase 4
