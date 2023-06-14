@@ -7,11 +7,11 @@ description: Software developers, designers, product owners or business analysts
 
 Find out the latest information, milestones plus service updates.
 
-*Last updated: 24 May 2023*
+*Last updated: 28 June 2023*
 
-## Phase 5
+## NCTS5
 ### What this roadmap tells you
-This part of the roadmap sets out our anticipated schedule for our current and future work in relation to API releases for phase 5. If you want to provide feedback, please use [GitHub](https://github.com/hmrc/common-transit-convention-traders/issues).
+This part of the roadmap sets out our anticipated schedule for our current and future work in relation to API releases for phase 5 of the New Computerised Transit System (NCTS5). If you want to provide feedback, please use [GitHub](https://github.com/hmrc/common-transit-convention-traders/issues).
 
 For technical information, see [CTC Traders API v2.0 documentation](/api-documentation/docs/api/service/common-transit-convention-traders/2.0).
 
@@ -21,10 +21,10 @@ To learn about about what we have released, view our changelogs on GitHub:
 - [CTC Traders API v2.0 changelog](https://github.com/hmrc/common-transit-convention-traders/wiki/CTC-Traders-API-v2.0-changelog)
 - [CTC Traders Test Support API v2.0 changelog](https://github.com/hmrc/common-transit-convention-traders-test-support/wiki/CTC-Traders-Test-Support-API-v2.0-changelog)
 
-**Please note**: Development of small messages functionality in CTC Traders API v2.0 is ready for testing. This version of the API will not be ready for use in production until phase 5 of the New Computerised Transit System (NCTS) goes live in November 2023.
+**Please note**: Development of small and large messages functionality in CTC Traders API v2.0 is ready for testing. This version of the API will not be ready for use in production until NCTS5 goes live on 16 November 2023.
 
 ### What are we working on now?
-Currently, we are working on sending and saving large departure messages.
+CTC Traders API v2.0 is now feature complete and we do not currently plan to add any more new features to the API. However, some of the existing features of the API might be enhanced, so you should review the API changelog regularly.
 
 ### Related documentation
 
@@ -33,9 +33,9 @@ Currently, we are working on sending and saving large departure messages.
 - [CTC Traders API phase 5 testing guide](/guides/ctc-traders-phase5-testing-guide/) | [Changelog](https://github.com/hmrc/ctc-traders-phase5-testing-guide/wiki/CTC-Traders-API-phase-5-testing-guide-changelog)
 - [NCTS Phase 5 Technical Interface Specification (TIS)](https://developer.service.hmrc.gov.uk/guides/ctc-traders-phase5-tis/) | [Changelog](https://github.com/hmrc/ctc-traders-phase5-tis/wiki/NCTS-Phase-5-Technical-Interface-Specification-(TIS)-changelog)
 
-## Phase 4
+## NCTS4
 ### What this roadmap tells you
-This part of the roadmap describes updates and changes in relation to API releases for phase 4. If you want to provide feedback, please use [GitHub](https://github.com/hmrc/common-transit-convention-traders/issues).
+This part of the roadmap describes updates and changes in relation to API releases for phase 4 of the New Computerised Transit System (NCTS4). If you want to provide feedback, please use [GitHub](https://github.com/hmrc/common-transit-convention-traders/issues).
 
 ### What have we just released?
 The following is now available to 3rd party developers:
