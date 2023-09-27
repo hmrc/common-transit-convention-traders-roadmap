@@ -5,26 +5,16 @@ description: Software developers, designers, product owners or business analysts
 ---
 # CTC Traders API roadmap
 
-Find out the latest information, milestones plus service updates.
-
-*Last updated: 28 June 2023*
+Last updated: September 2023
 
 ## NCTS5
-### What this roadmap tells you
-This part of the roadmap sets out our anticipated schedule for our current and future work in relation to API releases for phase 5 of the New Computerised Transit System (NCTS5). If you want to provide feedback, please use [GitHub](https://github.com/hmrc/common-transit-convention-traders/issues).
+### What we’re working on now
 
-For technical information, see [CTC Traders API v2.0 documentation](/api-documentation/docs/api/service/common-transit-convention-traders/2.0).
+CTC Traders API v2.0 is feature complete and we do not currently plan to add any more new features to the API. However, some of the existing features of the API might be enhanced, so you should review the API changelog [CTC Traders Test Support API v2.0 changelog](https://github.com/hmrc/common-transit-convention-traders-test-support/wiki/CTC-Traders-Test-Support-API-v2.0-changelog) on GitHub regularly.
 
-### What have we already released?
-To learn about about what we have released, view our changelogs on GitHub:
+### Updates
 
-- [CTC Traders API v2.0 changelog](https://github.com/hmrc/common-transit-convention-traders/wiki/CTC-Traders-API-v2.0-changelog)
-- [CTC Traders Test Support API v2.0 changelog](https://github.com/hmrc/common-transit-convention-traders-test-support/wiki/CTC-Traders-Test-Support-API-v2.0-changelog)
-
-**Please note**: Development of small and large messages functionality in CTC Traders API v2.0 is ready for testing. This version of the API will not be ready for use in production until NCTS5 goes live on 16 November 2023.
-
-### What are we working on now?
-CTC Traders API v2.0 is now feature complete and we do not currently plan to add any more new features to the API. However, some of the existing features of the API might be enhanced, so you should review the API changelog regularly.
+CTC Traders API v2.0 will not be ready for use in production until NCTS5 goes live on 16 November 2023.
 
 ### Related documentation
 
@@ -34,39 +24,35 @@ CTC Traders API v2.0 is now feature complete and we do not currently plan to add
 - [NCTS Phase 5 Technical Interface Specification (TIS)](https://developer.service.hmrc.gov.uk/guides/ctc-traders-phase5-tis/) | [Changelog](https://github.com/hmrc/ctc-traders-phase5-tis/wiki/NCTS-Phase-5-Technical-Interface-Specification-(TIS)-changelog)
 
 ## NCTS4
-### What this roadmap tells you
-This part of the roadmap describes updates and changes in relation to API releases for phase 4 of the New Computerised Transit System (NCTS4). If you want to provide feedback, please use [GitHub](https://github.com/hmrc/common-transit-convention-traders/issues).
+### What we’re working on now
 
-### What have we just released?
-The following is now available to 3rd party developers:
+CTC Traders API v1.0 is feature complete and we do not currently plan to make any changes to the API.
 
-- the [Application for Production Credentials Checklist](/guides/ctc-traders-phase4-testing-guide/figures/CTC_Traders_API_Application_for_Productions_Credentials_v0.1_Aug22.docx) of the CTC Traders API v1.0 has been revised and updated
+### Updates
 
-**Important information**
-The closure of the legacy New NCTS XML channel started on 28 February 2022 and was completed on 13 March 2022.
+#### API withdrawal
 
-To support developers who are still migrating clients, declarations made into the legacy XML channel continued to be accepted whilst the closure process was in progress. 
+CTC Traders API v1.0 will be withdrawn soon after CTC Traders API v2.0 goes live on 16 November 2023. We will tell you the exact date nearer the time.
 
-As previously stated, the decision to decommission the legacy XML channel is designed to provide greater support to the new XML API and Web portal.
+#### API production access
 
-It will not be possible for HMRC to continue to support this legacy channel, so we do not foresee any extension to this date.
+The [Application for Production Credentials Checklist](/guides/ctc-traders-phase4-testing-guide/figures/CTC_Traders_API_Application_for_Productions_Credentials_v0.1_Aug22.docx) of CTC Traders API v1.0 has been revised and updated.
 
-**Please note**:
+#### NCTS legacy XML channel closure
 
- - the NCTS legacy XML channel no longer accepts any new declarations
- - we have changed our previously published intention to close the e-mail channel on 28 February 2022 - this will now take place on 31 May 2022
+The closure of the NCTS legacy XML channel started on 28 February 2022 and was completed on 13 March 2022. The NCTS legacy XML channel no longer accepts any new declarations.
 
-If you have any customers using the Common Transit Convention (CTC), you should have completed the work needed to enable them to continue to make declarations using the new CTC XML API. 
+We closed the e-mail channel on 31 May 2022.
 
-It’s important to ensure your customers are equipped to use the new XML API channel and have the proper registration details such as Government Gateway credentials and that you’ve prepared them to make transit declarations.
+If you have any customers using the Common Transit Convention (CTC), you should have completed the work needed to enable them to continue to make declarations using the new CTC Traders REST API. 
+
+It’s important to ensure that your customers are equipped to use the new API and have the proper registration details, such as Government Gateway credentials, and that you’ve prepared them to make transit declarations.
 
 We have already contacted your customers to update them on the current position and you may receive questions from them on this subject.
 
-If you have any questions or any issues with completing the move to the new XML channel, get in touch with your usual contact or email [SDSTeam@hmrc.gov.uk](mailto:SDSTeam@hmrc.gov.uk).
+If you have any questions or any issues with completing the move to the new API, email [SDSTeam@hmrc.gov.uk](mailto:SDSTeam@hmrc.gov.uk).
 
 ### Related documentation
-<!--- Section owner: MTD Programme --->
-
 - [CTC Traders API v1.0 documentation](/api-documentation/docs/api/service/common-transit-convention-traders/1.0)
 - [CTC Traders API phase 4 service guide](/guides/ctc-traders-phase4-service-guide)
 - [CTC Traders API phase 4 testing guide](/guides/ctc-traders-phase4-testing-guide)
