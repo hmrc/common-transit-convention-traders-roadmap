@@ -5,16 +5,19 @@ description: Software developers, designers, product owners or business analysts
 ---
 # CTC Traders API roadmap
 
-Last updated: September 2023
+Last updated: October 2023
 
 ## NCTS5
+
+For information about key NCTS5 dates, see [NCTS phase 5 technical interface specification](/guides/ctc-traders-phase5-tis/#ncts5-key-dates).
+
 ### What we’re working on now
 
 CTC Traders API v2.0 is feature complete and we do not currently plan to add any more new features to the API. However, some of the existing features of the API might be enhanced, so you should review the API changelog [CTC Traders Test Support API v2.0 changelog](https://github.com/hmrc/common-transit-convention-traders-test-support/wiki/CTC-Traders-Test-Support-API-v2.0-changelog) on GitHub regularly.
 
 ### Updates
 
-CTC Traders API v2.0 will not be ready for use in production until NCTS5 goes live on 16 November 2023.
+CTC Traders API v2.0 will not be ready for use in production until the UK NCTS5 service goes live.
 
 ### Related documentation
 
@@ -32,7 +35,7 @@ CTC Traders API v1.0 is feature complete and we do not currently plan to make an
 
 #### API withdrawal
 
-CTC Traders API v1.0 will be withdrawn soon after CTC Traders API v2.0 goes live on 16 November 2023. We will tell you the exact date nearer the time.
+CTC Traders API v1.0 will be withdrawn soon after the UK NCTS5 service goes live. We will tell you the exact date nearer the time.
 
 #### API production access
 
