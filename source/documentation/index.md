@@ -13,7 +13,7 @@ For information about key NCTS5 dates, see [NCTS phase 5 technical interface spe
 
 ### What we’re working on now
 
-CTC Traders API v2.0 is feature complete and we do not currently plan to add any more new features to the API. However, some of the existing features of the API might be enhanced, so you should review the API changelog [CTC Traders Test Support API v2.0 changelog](https://github.com/hmrc/common-transit-convention-traders-test-support/wiki/CTC-Traders-Test-Support-API-v2.0-changelog) on GitHub regularly.
+CTC Traders API v2.0 is feature complete and we do not currently plan to add any more new features to the API. However, some of the existing features of the API might be enhanced, so you should review the [CTC Traders  API v2.0 changelog](https://github.com/hmrc/common-transit-convention-traders/wiki/CTC-Traders-API-v2.0-changelog) on GitHub regularly.
 
 ### Updates
 
