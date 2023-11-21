@@ -44,3 +44,4 @@ Staticfile.auth
 .idea
 
 .metals/
+.vscode/
