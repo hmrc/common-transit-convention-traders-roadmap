@@ -5,15 +5,15 @@ description: Software developers, designers, product owners or business analysts
 ---
 # CTC Traders API roadmap
 
-Last updated: October 2023
+Last updated: November 2023
 
 ## NCTS5
 
-For information about key NCTS5 dates, see [NCTS phase 5 technical interface specification](/guides/ctc-traders-phase5-tis/#ncts5-key-dates).
+[Learn about key NCTS5 dates](/guides/ctc-traders-phase5-tis/#ncts5-key-dates).
 
 ### What we’re working on now
 
-CTC Traders API v2.0 is feature complete and we do not currently plan to add any more new features to the API. However, some of the existing features of the API might be enhanced, so you should review the [CTC Traders  API v2.0 changelog](https://github.com/hmrc/common-transit-convention-traders/wiki/CTC-Traders-API-v2.0-changelog) on GitHub regularly.
+[CTC Traders API v2.0](/api-documentation/docs/api/service/common-transit-convention-traders/2.0) is feature complete and we do not currently plan to add any more new features to the API. However, some of the existing features of the API might be enhanced, so you should review the [CTC Traders  API v2.0 changelog](https://github.com/hmrc/common-transit-convention-traders/wiki/CTC-Traders-API-v2.0-changelog) on GitHub regularly.
 
 ### Updates
 
@@ -21,15 +21,17 @@ CTC Traders API v2.0 will not be ready for use in production until the UK NCTS5 
 
 ### Related documentation
 
-- [CTC Traders API v2.0 documentation](/api-documentation/docs/api/service/common-transit-convention-traders/2.0)
-- [CTC Traders API phase 5 service guide](/guides/ctc-traders-phase5-service-guide) | [Changelog](https://github.com/hmrc/ctc-traders-phase5-service-guide/wiki/CTC-Traders-API-phase-5-service-guide-changelog)
-- [CTC Traders API phase 5 testing guide](/guides/ctc-traders-phase5-testing-guide/) | [Changelog](https://github.com/hmrc/ctc-traders-phase5-testing-guide/wiki/CTC-Traders-API-phase-5-testing-guide-changelog)
-- [NCTS Phase 5 Technical Interface Specification (TIS)](https://developer.service.hmrc.gov.uk/guides/ctc-traders-phase5-tis/) | [Changelog](https://github.com/hmrc/ctc-traders-phase5-tis/wiki/NCTS-Phase-5-Technical-Interface-Specification-(TIS)-changelog)
+- [CTC Traders API v2.0 reference](/api-documentation/docs/api/service/common-transit-convention-traders/2.0/oas/page)
+- [CTC Traders API phase 5 service guide](/guides/ctc-traders-phase5-service-guide)
+- [CTC Traders API phase 5 testing guide](/guides/ctc-traders-phase5-testing-guide/)
+- [NCTS phase 5 technical interface specification](/guides/ctc-traders-phase5-tis/)
+
+**Note:** For information about how to use these documents, see the 'Navigating CTC Traders API v2.0 documentation' section in the service guide, testing guide, or technical interface specification.
 
 ## NCTS4
 ### What we’re working on now
 
-CTC Traders API v1.0 is feature complete and we do not currently plan to make any changes to the API.
+[CTC Traders API v1.0 ](/api-documentation/docs/api/service/common-transit-convention-traders/1.0) is feature complete and we do not currently plan to make any changes to the API.
 
 ### Updates
 
@@ -56,6 +58,6 @@ We have already contacted your customers to update them on the current position 
 If you have any questions or any issues with completing the move to the new API, email [SDSTeam@hmrc.gov.uk](mailto:SDSTeam@hmrc.gov.uk).
 
 ### Related documentation
-- [CTC Traders API v1.0 documentation](/api-documentation/docs/api/service/common-transit-convention-traders/1.0)
+- [CTC Traders API v1.0 reference](/api-documentation/docs/api/service/common-transit-convention-traders/1.0/oas/page)
 - [CTC Traders API phase 4 service guide](/guides/ctc-traders-phase4-service-guide)
 - [CTC Traders API phase 4 testing guide](/guides/ctc-traders-phase4-testing-guide)
