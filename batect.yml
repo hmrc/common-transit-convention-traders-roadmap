@@ -1,0 +1,44 @@
+containers:
+  ruby:
+    build_directory: .
+    volumes:
+      - local: .
+        container: /mnt
+        options: cached
+      - type: cache
+        name: bundle-cache
+        container: /bundle-cache
+    working_directory: /mnt
+    environment:
+      BUNDLE_PATH: /bundle-cache
+    run_as_current_user:
+      enabled: true
+      home_directory: /home
+
+tasks:
+  update:
+    description: Update Ruby Gems
+    run:
+      container: ruby
+      command: bundle update
+  install:
+    description: Install Ruby Gems
+    run:
+      container: ruby
+      command: bundle install
+  preview:
+    description: Run a server so that the content can be seen in a browser
+    prerequisites:
+      - install
+    run:
+      container: ruby
+      command: bundle exec middleman
+      ports:
+        - 4567:4567
+  build:
+    description: Build the HTML files and output to ./public
+    prerequisites:
+      - install
+    run:
+      container: ruby
+      command: bundle exec middleman build --build-dir=public/ --clean
