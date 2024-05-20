@@ -45,3 +45,5 @@ Staticfile.auth
 
 .metals/
 .vscode/
+
+/.batect
