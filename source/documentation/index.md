@@ -5,7 +5,7 @@ description: Software developers, designers, product owners or business analysts
 ---
 # CTC Traders API roadmap
 
-Last updated: November 2023
+Last updated: September 2024
 
 ## NCTS5
 
