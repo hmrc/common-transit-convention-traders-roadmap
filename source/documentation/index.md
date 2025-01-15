@@ -5,7 +5,7 @@ description: Software developers, designers, product owners or business analysts
 ---
 # CTC Traders API roadmap
 
-Last updated: September 2024
+Last updated: Jan 2025
 
 ## NCTS5
 
@@ -13,16 +13,17 @@ Last updated: September 2024
 
 ### What we’re working on now
 
-1. **Upcoming Release of CTC Traders API v2.1: Supporting Testing for Transitional and Final State Rules:**
-    We are developing a new version of the CTC Traders API, v2.1, which will serve as the production version for final state rules. Once available in the sandbox environment, v2.1 will enable customers to test their integrations against the final state rules, complementing the current transitional rules testing using version v2.0 in the sandbox. Further updates will be provided as we progress with this release.
+**CTC Traders API Post Transition Period (Final-state)Go-Live**
+- Preparations are underway for the Version 2.1 Go-Live, set to take place on January 21, 2025.
 
-2. **Technical Interface Specification(TIS) Changes from TaxUD:**
-    We are currently working on implementing changes to the TIS, which will introduce updates to our API. This is an important enhancement that will impact how you integrate with our system. Further details will be provided as we progress with this work.
+### Upcoming Changes
+**March 2025 (Q1): Decommissioning of CTC API Version 2.0**
+- Version 2.0 of the CTC API will no longer be usable after January 21, 2025. Official deprecation activities will begin in March 2025.
 
 
 ### Related documentation
 
-- [CTC Traders API v2.0 reference](/api-documentation/docs/api/service/common-transit-convention-traders/2.0/oas/page)
+- [CTC Traders API v2.1 reference](/api-documentation/docs/api/service/common-transit-convention-traders/2.1))
 - [CTC Traders API phase 5 service guide](/guides/ctc-traders-phase5-service-guide)
 - [CTC Traders API phase 5 testing guide](/guides/ctc-traders-phase5-testing-guide/)
 - [NCTS phase 5 technical interface specification](/guides/ctc-traders-phase5-tis/)
