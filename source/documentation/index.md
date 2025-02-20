@@ -5,16 +5,13 @@ description: Software developers, designers, product owners or business analysts
 ---
 # CTC Traders API roadmap
 
-Last updated: Jan 2025
+Last updated: February 2025
 
-## NCTS5
-
-[Learn about key NCTS5 dates](/guides/ctc-traders-phase5-tis/#ncts5-key-dates).
 
 ### What we’re working on now
 
-**CTC Traders API Post Transition Period (Final-state)Go-Live**
-- Preparations are underway for the Version 2.1 Go-Live, set to take place on January 21, 2025.
+**NCTS Phase 6**
+- We are currently in the discovery phase for CTC Traders API Phase 6, including early-stage analysis and planning to shape the next iteration of the API.
 
 ### Upcoming Changes
 **March 2025 (Q1): Decommissioning of CTC API Version 2.0**
@@ -29,9 +26,3 @@ Last updated: Jan 2025
 - [NCTS phase 5 technical interface specification](/guides/ctc-traders-phase5-tis/)
 
 **Note:** For information about how to use these documents, see the 'Navigating CTC Traders API v2.0 documentation' section in the service guide, testing guide, or technical interface specification.
-
-## NCTS4
-
-### Notice
-
-This API is deprecated and will no longer be supported. Please refer to the roadmap for updates and transition to newer versions or alternative APIs as recommended.
