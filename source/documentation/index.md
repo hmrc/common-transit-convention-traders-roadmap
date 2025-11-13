@@ -23,5 +23,3 @@ Last updated: November 2025
 - [CTC Traders API phase 5 service guide](/guides/ctc-traders-phase5-service-guide)
 - [CTC Traders API phase 5 testing guide](/guides/ctc-traders-phase5-testing-guide/)
 - [NCTS phase 5 technical interface specification](/guides/ctc-traders-phase5-tis/)
-
-**Note:** For information about how to use these documents, see the 'Navigating CTC Traders API v2.0 documentation' section in the service guide, testing guide, or technical interface specification.
