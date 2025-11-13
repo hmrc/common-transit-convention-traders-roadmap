@@ -1,6 +1,6 @@
 # If you do not have OpenSSL installed, change
 # the following line to use 'http://'
-source 'https://rubygems.org'
+source 'https://artefacts.tax.service.gov.uk/artifactory/api/gems/gems/'
 
 # For faster file watcher updates on Windows:
 gem 'wdm', '~> 0.1.0', platforms: [:mswin, :mingw]
