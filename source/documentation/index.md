@@ -5,11 +5,11 @@ description: Software developers, designers, product owners or business analysts
 ---
 # CTC Traders API roadmap
 
-Last updated: November 2025
+Last updated: December 2025
 
 ### What we’re working on now
 
-**NCTS Phase 6**
+**NCTS Phase 7**
 - We have completed the data fields and rules analysis and are progressing with the initial API build activities for CTC Traders API Phase 6. This includes updating key technical documents such as the Technical Interface Specification (TIS), Service Guide, and XSDs to ensure SWD integration readiness.
 
 ### Upcoming Changes
