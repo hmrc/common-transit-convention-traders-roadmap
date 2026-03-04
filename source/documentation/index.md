@@ -5,21 +5,24 @@ description: Software developers, designers, product owners or business analysts
 ---
 # CTC Traders API roadmap
 
-Last updated: November 2025
+Last updated: March 2026
 
 ### What we’re working on now
 
 **NCTS Phase 6**
-- We have completed the data fields and rules analysis and are progressing with the initial API build activities for CTC Traders API Phase 6. This includes updating key technical documents such as the Technical Interface Specification (TIS), Service Guide, and XSDs to ensure SWD integration readiness.
+- We are progressing with the final API build activities for CTC Traders API Phase 6.
+- We are continuing to update key technical documents such as the Technical Interface Specification (TIS) and Service Guide.
+- We have published XSDs.
 
 ### Upcoming Changes
-**Phase 6 (v3.0) Preparation**
-- With Phase 6 discovery now complete, we are preparing for the future release of CTC Traders API Version 3.0, which will replace Version 2.1. Work is underway to finalise and publish the updated TIS, Service Guide, and XSDs, and to share details on the new API structure, functionality, and integration approach to support partner readiness ahead of release.
+- The Trader Test environment (API‑only) **v3.0** will be available in **April**.
+- Test Scenarios and Test Data will be published shortly to support partner readiness.
+- Phase 5 and Phase 6 will run in parallel to provide continuous support and testing.
 
 
 ### Related documentation
 
-- [CTC Traders API v2.1 reference](/api-documentation/docs/api/service/common-transit-convention-traders/2.1))
+- [CTC Traders API v2.1 reference](/api-documentation/docs/api/service/common-transit-convention-traders/2.1)
 - [CTC Traders API phase 5 service guide](/guides/ctc-traders-phase5-service-guide)
 - [CTC Traders API phase 5 testing guide](/guides/ctc-traders-phase5-testing-guide/)
 - [NCTS phase 5 technical interface specification](/guides/ctc-traders-phase5-tis/)
