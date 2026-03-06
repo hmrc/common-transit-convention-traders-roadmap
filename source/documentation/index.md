@@ -9,7 +9,7 @@ Last updated: March 2026
 
 ### What we’re working on now
 
-**NCTS Phase 6**
+#### NCTS Phase 6
 - We are progressing with the final API build activities for CTC Traders API Phase 6.
 - We are continuing to update key technical documents such as the Technical Interface Specification (TIS) and Service Guide.
 - We have published XSDs.
