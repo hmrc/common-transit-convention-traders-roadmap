@@ -37,22 +37,6 @@ bundle exec middleman serve
 ```
 The local URL and port where the files can be previewed will be output, this is normally http://localhost:4567.
 
-## Running the Scala Application
-
-Requirements:
-* Scala/sbt
-
-### Build the HTML files
-```
-./batect build
-```
-### Run the Scala Application
-```
-sbt run
-```
-
-The local URL and port where the files can be previewed will be output, this is normally http://localhost:9000.
-
 ## Building
 
 Create a [build job](https://github.com/hmrc/build-jobs) like:
