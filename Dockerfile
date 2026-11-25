@@ -1,4 +1,4 @@
-FROM node:22.2.0
+FROM node:26.13.1
 USER root
 RUN apt update
 RUN git clone https://github.com/rbenv/rbenv.git /root/.rbenv
